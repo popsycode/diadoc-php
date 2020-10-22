@@ -32,6 +32,13 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
     protected $OrgId = null;
 
     /**
+     * InvitationDocumentId optional message = 2
+     *
+     * @var \AgentSIB\Diadoc\Api\Proto\DocumentId
+     */
+    protected $InvitationDocumentId = null;
+
+    /**
      * Check if 'OrgId' has a value
      *
      * @return bool
@@ -59,6 +66,36 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
     public function setOrgId($value)
     {
         $this->OrgId = $value;
+    }
+
+    /**
+     * Check if 'InvitationDocumentId' has a value
+     *
+     * @return bool
+     */
+    public function hasInvitationDocumentId()
+    {
+        return $this->InvitationDocumentId !== null;
+    }
+
+    /**
+     * Get 'InvitationDocumentId' value
+     *
+     * @return \AgentSIB\Diadoc\Api\Proto\DocumentId
+     */
+    public function getInvitationDocumentId()
+    {
+        return $this->InvitationDocumentId;
+    }
+
+    /**
+     * Set 'InvitationDocumentId' value
+     *
+     * @param \AgentSIB\Diadoc\Api\Proto\DocumentId $value
+     */
+    public function setInvitationDocumentId(\AgentSIB\Diadoc\Api\Proto\DocumentId $value = null)
+    {
+        $this->InvitationDocumentId = $value;
     }
 
     /**
@@ -100,9 +137,11 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
 
         $message = new self();
         $values  = array_merge([
+            'InvitationDocumentId' => null
         ], $values);
 
         $message->setOrgId($values['OrgId']);
+        $message->setInvitationDocumentId($values['InvitationDocumentId']);
 
         return $message;
     }
@@ -120,6 +159,13 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
                     'name' => 'OrgId',
                     'type' => \google\protobuf\FieldDescriptorProto\Type::TYPE_STRING(),
                     'label' => \google\protobuf\FieldDescriptorProto\Label::LABEL_REQUIRED()
+                ]),
+                \google\protobuf\FieldDescriptorProto::fromArray([
+                    'number' => 2,
+                    'name' => 'InvitationDocumentId',
+                    'type' => \google\protobuf\FieldDescriptorProto\Type::TYPE_MESSAGE(),
+                    'label' => \google\protobuf\FieldDescriptorProto\Label::LABEL_OPTIONAL(),
+                    'type_name' => '.AgentSIB.Diadoc.Api.Proto.DocumentId'
                 ]),
             ],
         ]);
@@ -156,6 +202,12 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
         if ($this->OrgId !== null) {
             $writer->writeVarint($stream, 10);
             $writer->writeString($stream, $this->OrgId);
+        }
+
+        if ($this->InvitationDocumentId !== null) {
+            $writer->writeVarint($stream, 18);
+            $writer->writeVarint($stream, $this->InvitationDocumentId->serializedSize($sizeContext));
+            $this->InvitationDocumentId->writeTo($context);
         }
 
         if ($this->extensions !== null) {
@@ -200,6 +252,21 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
                 continue;
             }
 
+            if ($tag === 2) {
+                \Protobuf\WireFormat::assertWireType($wire, 11);
+
+                $innerSize    = $reader->readVarint($stream);
+                $innerMessage = new \AgentSIB\Diadoc\Api\Proto\DocumentId();
+
+                $this->InvitationDocumentId = $innerMessage;
+
+                $context->setLength($innerSize);
+                $innerMessage->readFrom($context);
+                $context->setLength($length);
+
+                continue;
+            }
+
             $extensions = $context->getExtensionRegistry();
             $extension  = $extensions ? $extensions->findByNumber(__CLASS__, $tag) : null;
 
@@ -234,6 +301,14 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
             $size += $calculator->computeStringSize($this->OrgId);
         }
 
+        if ($this->InvitationDocumentId !== null) {
+            $innerSize = $this->InvitationDocumentId->serializedSize($context);
+
+            $size += 1;
+            $size += $innerSize;
+            $size += $calculator->computeVarintSize($innerSize);
+        }
+
         if ($this->extensions !== null) {
             $size += $this->extensions->serializedSize($context);
         }
@@ -247,6 +322,7 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
     public function clear()
     {
         $this->OrgId = null;
+        $this->InvitationDocumentId = null;
     }
 
     /**
@@ -259,6 +335,7 @@ class AcquireCounteragentResult extends \Protobuf\AbstractMessage
         }
 
         $this->OrgId = ($message->OrgId !== null) ? $message->OrgId : $this->OrgId;
+        $this->InvitationDocumentId = ($message->InvitationDocumentId !== null) ? $message->InvitationDocumentId : $this->InvitationDocumentId;
     }
 
 
