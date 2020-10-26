@@ -21,5 +21,11 @@
         "psr-4": {
             "AgentSIB\\Diadoc\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/popsycode/diadoc-php-signers.git"
+        }
+    ]
 }
