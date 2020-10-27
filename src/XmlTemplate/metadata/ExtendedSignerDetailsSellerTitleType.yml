@@ -1,0 +1,11 @@
+AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsSellerTitleType:
+    properties:
+        signerPowers:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerPowers
+            accessor:
+                getter: getSignerPowers
+                setter: setSignerPowers
+            xml_attribute: true
+            type: int

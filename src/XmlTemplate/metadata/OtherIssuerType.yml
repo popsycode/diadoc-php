@@ -1,0 +1,74 @@
+AgentSIB\Diadoc\XmlTemplate\OtherIssuerType:
+    properties:
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            xml_attribute: true
+            type: string
+        employeeInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: EmployeeInfo
+            accessor:
+                getter: getEmployeeInfo
+                setter: setEmployeeInfo
+            xml_attribute: true
+            type: string
+        employeeBase:
+            expose: true
+            access_type: public_method
+            serialized_name: EmployeeBase
+            accessor:
+                getter: getEmployeeBase
+                setter: setEmployeeBase
+            xml_attribute: true
+            type: string
+        organizationName:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationName
+            accessor:
+                getter: getOrganizationName
+                setter: setOrganizationName
+            xml_attribute: true
+            type: string
+        organizationBase:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationBase
+            accessor:
+                getter: getOrganizationBase
+                setter: setOrganizationBase
+            xml_attribute: true
+            type: string
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: LastName
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            xml_attribute: true
+            type: string
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            xml_attribute: true
+            type: string
+        middleName:
+            expose: true
+            access_type: public_method
+            serialized_name: MiddleName
+            accessor:
+                getter: getMiddleName
+                setter: setMiddleName
+            xml_attribute: true
+            type: string

@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType:
+    properties:
+        documentShipment:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentShipment
+            accessor:
+                getter: getDocumentShipment
+                setter: setDocumentShipment
+            xml_list:
+                inline: true
+                entry_name: DocumentShipment
+            type: array<AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType>

@@ -1,0 +1,38 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType:
+    properties:
+        regNumberUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: RegNumberUnit
+            accessor:
+                getter: getRegNumberUnit
+                setter: setRegNumberUnit
+            xml_attribute: true
+            type: string
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: Unit
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            xml_attribute: true
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: float
+        itemAddInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemAddInfo
+            accessor:
+                getter: getItemAddInfo
+                setter: setItemAddInfo
+            xml_attribute: true
+            type: string

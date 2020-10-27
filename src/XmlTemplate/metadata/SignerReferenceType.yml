@@ -1,0 +1,29 @@
+AgentSIB\Diadoc\XmlTemplate\SignerReferenceType:
+    properties:
+        boxId:
+            expose: true
+            access_type: public_method
+            serialized_name: BoxId
+            accessor:
+                getter: getBoxId
+                setter: setBoxId
+            xml_attribute: true
+            type: string
+        certificateBytes:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateBytes
+            accessor:
+                getter: getCertificateBytes
+                setter: setCertificateBytes
+            xml_attribute: true
+            type: \AnySimpleType
+        certificateThumbprint:
+            expose: true
+            access_type: public_method
+            serialized_name: CertificateThumbprint
+            accessor:
+                getter: getCertificateThumbprint
+                setter: setCertificateThumbprint
+            xml_attribute: true
+            type: string

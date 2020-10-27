@@ -1,0 +1,230 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType:
+    properties:
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: Product
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            xml_attribute: true
+            type: string
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: Unit
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            xml_attribute: true
+            type: string
+        unitName:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitName
+            accessor:
+                getter: getUnitName
+                setter: setUnitName
+            xml_attribute: true
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: float
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            xml_attribute: true
+            type: float
+        excise:
+            expose: true
+            access_type: public_method
+            serialized_name: Excise
+            accessor:
+                getter: getExcise
+                setter: setExcise
+            xml_attribute: true
+            type: float
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            xml_attribute: true
+            type: string
+        subtotalWithVatExcluded:
+            expose: true
+            access_type: public_method
+            serialized_name: SubtotalWithVatExcluded
+            accessor:
+                getter: getSubtotalWithVatExcluded
+                setter: setSubtotalWithVatExcluded
+            xml_attribute: true
+            type: float
+        vat:
+            expose: true
+            access_type: public_method
+            serialized_name: Vat
+            accessor:
+                getter: getVat
+                setter: setVat
+            xml_attribute: true
+            type: float
+        withoutVat:
+            expose: true
+            access_type: public_method
+            serialized_name: WithoutVat
+            accessor:
+                getter: getWithoutVat
+                setter: setWithoutVat
+            xml_attribute: true
+            type: string
+        subtotal:
+            expose: true
+            access_type: public_method
+            serialized_name: Subtotal
+            accessor:
+                getter: getSubtotal
+                setter: setSubtotal
+            xml_attribute: true
+            type: float
+        itemMark:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemMark
+            accessor:
+                getter: getItemMark
+                setter: setItemMark
+            xml_attribute: true
+            type: int
+        additionalProperty:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalProperty
+            accessor:
+                getter: getAdditionalProperty
+                setter: setAdditionalProperty
+            xml_attribute: true
+            type: string
+        itemVendorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemVendorCode
+            accessor:
+                getter: getItemVendorCode
+                setter: setItemVendorCode
+            xml_attribute: true
+            type: string
+        itemToRelease:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemToRelease
+            accessor:
+                getter: getItemToRelease
+                setter: setItemToRelease
+            xml_attribute: true
+            type: float
+        itemCharact:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemCharact
+            accessor:
+                getter: getItemCharact
+                setter: setItemCharact
+            xml_attribute: true
+            type: string
+        itemArticle:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemArticle
+            accessor:
+                getter: getItemArticle
+                setter: setItemArticle
+            xml_attribute: true
+            type: string
+        itemKind:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemKind
+            accessor:
+                getter: getItemKind
+                setter: setItemKind
+            xml_attribute: true
+            type: string
+        catalogCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CatalogCode
+            accessor:
+                getter: getCatalogCode
+                setter: setCatalogCode
+            xml_attribute: true
+            type: string
+        itemTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemTypeCode
+            accessor:
+                getter: getItemTypeCode
+                setter: setItemTypeCode
+            xml_attribute: true
+            type: string
+        customsDeclarations:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsDeclarations
+            accessor:
+                getter: getCustomsDeclarations
+                setter: setCustomsDeclarations
+            type: array<AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType>
+            xml_list:
+                inline: false
+                entry_name: CustomsDeclaration
+                skip_when_empty: true
+        additionalInfos:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInfos
+            accessor:
+                getter: getAdditionalInfos
+                setter: setAdditionalInfos
+            type: array<AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType>
+            xml_list:
+                inline: false
+                entry_name: AdditionalInfo
+                skip_when_empty: true
+        itemTracingInfos:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemTracingInfos
+            accessor:
+                getter: getItemTracingInfos
+                setter: setItemTracingInfos
+            type: array<AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType>
+            xml_list:
+                inline: false
+                entry_name: ItemTracingInfo
+                skip_when_empty: true
+        itemIdentificationNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemIdentificationNumbers
+            accessor:
+                getter: getItemIdentificationNumbers
+                setter: setItemIdentificationNumbers
+            type: array<AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType>
+            xml_list:
+                inline: false
+                entry_name: ItemIdentificationNumber
+                skip_when_empty: true

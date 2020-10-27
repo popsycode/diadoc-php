@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\AdditionalInfosAType:
+    properties:
+        additionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInfo
+            accessor:
+                getter: getAdditionalInfo
+                setter: setAdditionalInfo
+            xml_list:
+                inline: true
+                entry_name: AdditionalInfo
+            type: array<AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType>

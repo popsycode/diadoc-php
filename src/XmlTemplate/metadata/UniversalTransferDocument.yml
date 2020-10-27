@@ -1,0 +1,248 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument:
+    xml_root_name: UniversalTransferDocument
+    properties:
+        function:
+            expose: true
+            access_type: public_method
+            serialized_name: Function
+            accessor:
+                getter: getFunction
+                setter: setFunction
+            xml_attribute: true
+            type: string
+        approvedStructureAdditionalInfoFields:
+            expose: true
+            access_type: public_method
+            serialized_name: ApprovedStructureAdditionalInfoFields
+            accessor:
+                getter: getApprovedStructureAdditionalInfoFields
+                setter: setApprovedStructureAdditionalInfoFields
+            xml_attribute: true
+            type: string
+        documentName:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentName
+            accessor:
+                getter: getDocumentName
+                setter: setDocumentName
+            xml_attribute: true
+            type: string
+        documentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentDate
+            accessor:
+                getter: getDocumentDate
+                setter: setDocumentDate
+            xml_attribute: true
+            type: string
+        documentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentNumber
+            accessor:
+                getter: getDocumentNumber
+                setter: setDocumentNumber
+            xml_attribute: true
+            type: string
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: Currency
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            xml_attribute: true
+            type: string
+        currencyRate:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyRate
+            accessor:
+                getter: getCurrencyRate
+                setter: setCurrencyRate
+            xml_attribute: true
+            type: float
+        revisionDate:
+            expose: true
+            access_type: public_method
+            serialized_name: RevisionDate
+            accessor:
+                getter: getRevisionDate
+                setter: setRevisionDate
+            xml_attribute: true
+            type: string
+        revisionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RevisionNumber
+            accessor:
+                getter: getRevisionNumber
+                setter: setRevisionNumber
+            xml_attribute: true
+            type: int
+        documentCreator:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentCreator
+            accessor:
+                getter: getDocumentCreator
+                setter: setDocumentCreator
+            xml_attribute: true
+            type: string
+        documentCreatorBase:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentCreatorBase
+            accessor:
+                getter: getDocumentCreatorBase
+                setter: setDocumentCreatorBase
+            xml_attribute: true
+            type: string
+        governmentContractInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: GovernmentContractInfo
+            accessor:
+                getter: getGovernmentContractInfo
+                setter: setGovernmentContractInfo
+            xml_attribute: true
+            type: string
+        circumFormatInvoice:
+            expose: true
+            access_type: public_method
+            serialized_name: CircumFormatInvoice
+            accessor:
+                getter: getCircumFormatInvoice
+                setter: setCircumFormatInvoice
+            xml_attribute: true
+            type: string
+        sellers:
+            expose: true
+            access_type: public_method
+            serialized_name: Sellers
+            accessor:
+                getter: getSellers
+                setter: setSellers
+            type: array<AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType>
+            xml_list:
+                inline: false
+                entry_name: Seller
+                skip_when_empty: false
+        buyers:
+            expose: true
+            access_type: public_method
+            serialized_name: Buyers
+            accessor:
+                getter: getBuyers
+                setter: setBuyers
+            type: array<AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType>
+            xml_list:
+                inline: false
+                entry_name: Buyer
+                skip_when_empty: false
+        shippers:
+            expose: true
+            access_type: public_method
+            serialized_name: Shippers
+            accessor:
+                getter: getShippers
+                setter: setShippers
+            type: array<AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType>
+            xml_list:
+                inline: false
+                entry_name: Shipper
+                skip_when_empty: true
+        consignees:
+            expose: true
+            access_type: public_method
+            serialized_name: Consignees
+            accessor:
+                getter: getConsignees
+                setter: setConsignees
+            type: array<AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType>
+            xml_list:
+                inline: false
+                entry_name: Consignee
+                skip_when_empty: true
+        signers:
+            expose: true
+            access_type: public_method
+            serialized_name: Signers
+            accessor:
+                getter: getSigners
+                setter: setSigners
+            type: AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SignersAType
+        paymentDocuments:
+            expose: true
+            access_type: public_method
+            serialized_name: PaymentDocuments
+            accessor:
+                getter: getPaymentDocuments
+                setter: setPaymentDocuments
+            type: array<AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType>
+            xml_list:
+                inline: false
+                entry_name: Document
+                skip_when_empty: true
+        additionalInfoId:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInfoId
+            accessor:
+                getter: getAdditionalInfoId
+                setter: setAdditionalInfoId
+            type: AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType
+        table:
+            expose: true
+            access_type: public_method
+            serialized_name: Table
+            accessor:
+                getter: getTable
+                setter: setTable
+            type: AgentSIB\Diadoc\XmlTemplate\InvoiceTableType
+        transferInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferInfo
+            accessor:
+                getter: getTransferInfo
+                setter: setTransferInfo
+            type: AgentSIB\Diadoc\XmlTemplate\TransferInfoType
+        factorInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FactorInfo
+            accessor:
+                getter: getFactorInfo
+                setter: setFactorInfo
+            type: AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType
+        mainAssignMonetaryClaim:
+            expose: true
+            access_type: public_method
+            serialized_name: MainAssignMonetaryClaim
+            accessor:
+                getter: getMainAssignMonetaryClaim
+                setter: setMainAssignMonetaryClaim
+            type: AgentSIB\Diadoc\XmlTemplate\TransferBase820Type
+        sellerInfoCircumPublicProc:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerInfoCircumPublicProc
+            accessor:
+                getter: getSellerInfoCircumPublicProc
+                setter: setSellerInfoCircumPublicProc
+            type: AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SellerInfoCircumPublicProcAType
+        documentShipments:
+            expose: true
+            access_type: public_method
+            serialized_name: DocumentShipments
+            accessor:
+                getter: getDocumentShipments
+                setter: setDocumentShipments
+            type: array<AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType>
+            xml_list:
+                inline: false
+                entry_name: DocumentShipment
+                skip_when_empty: true

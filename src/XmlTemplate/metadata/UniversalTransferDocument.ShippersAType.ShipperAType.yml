@@ -1,0 +1,27 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType:
+    properties:
+        sameAsSeller:
+            expose: true
+            access_type: public_method
+            serialized_name: SameAsSeller
+            accessor:
+                getter: getSameAsSeller
+                setter: setSameAsSeller
+            xml_attribute: true
+            type: string
+        organizationDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationDetails
+            accessor:
+                getter: getOrganizationDetails
+                setter: setOrganizationDetails
+            type: AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsType
+        organizationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationReference
+            accessor:
+                getter: getOrganizationReference
+                setter: setOrganizationReference
+            type: AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationReferenceType

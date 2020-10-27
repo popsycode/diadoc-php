@@ -1,0 +1,24 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SignersAType:
+    properties:
+        signerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerReference
+            accessor:
+                getter: getSignerReference
+                setter: setSignerReference
+            xml_list:
+                inline: true
+                entry_name: SignerReference
+            type: array<AgentSIB\Diadoc\XmlTemplate\SignerReferenceType>
+        signerDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerDetails
+            accessor:
+                getter: getSignerDetails
+                setter: setSignerDetails
+            xml_list:
+                inline: true
+                entry_name: SignerDetails
+            type: array<AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsSellerTitleType>

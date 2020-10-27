@@ -1,0 +1,38 @@
+AgentSIB\Diadoc\XmlTemplate\TransferBaseType:
+    properties:
+        baseDocumentName:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseDocumentName
+            accessor:
+                getter: getBaseDocumentName
+                setter: setBaseDocumentName
+            xml_attribute: true
+            type: string
+        baseDocumentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseDocumentNumber
+            accessor:
+                getter: getBaseDocumentNumber
+                setter: setBaseDocumentNumber
+            xml_attribute: true
+            type: string
+        baseDocumentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseDocumentDate
+            accessor:
+                getter: getBaseDocumentDate
+                setter: setBaseDocumentDate
+            xml_attribute: true
+            type: string
+        baseDocumentInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseDocumentInfo
+            accessor:
+                getter: getBaseDocumentInfo
+                setter: setBaseDocumentInfo
+            xml_attribute: true
+            type: string

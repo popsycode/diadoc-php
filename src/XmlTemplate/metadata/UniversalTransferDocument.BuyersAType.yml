@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\BuyersAType:
+    properties:
+        buyer:
+            expose: true
+            access_type: public_method
+            serialized_name: Buyer
+            accessor:
+                getter: getBuyer
+                setter: setBuyer
+            xml_list:
+                inline: true
+                entry_name: Buyer
+            type: array<AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType>

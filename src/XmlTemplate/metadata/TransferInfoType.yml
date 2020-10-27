@@ -1,0 +1,130 @@
+AgentSIB\Diadoc\XmlTemplate\TransferInfoType:
+    properties:
+        operationInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OperationInfo
+            accessor:
+                getter: getOperationInfo
+                setter: setOperationInfo
+            xml_attribute: true
+            type: string
+        operationType:
+            expose: true
+            access_type: public_method
+            serialized_name: OperationType
+            accessor:
+                getter: getOperationType
+                setter: setOperationType
+            xml_attribute: true
+            type: string
+        transferDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferDate
+            accessor:
+                getter: getTransferDate
+                setter: setTransferDate
+            xml_attribute: true
+            type: string
+        transferStartDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferStartDate
+            accessor:
+                getter: getTransferStartDate
+                setter: setTransferStartDate
+            xml_attribute: true
+            type: string
+        transferEndDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferEndDate
+            accessor:
+                getter: getTransferEndDate
+                setter: setTransferEndDate
+            xml_attribute: true
+            type: string
+        transferTextInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferTextInfo
+            accessor:
+                getter: getTransferTextInfo
+                setter: setTransferTextInfo
+            xml_attribute: true
+            type: string
+        createdThingTransferDate:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedThingTransferDate
+            accessor:
+                getter: getCreatedThingTransferDate
+                setter: setCreatedThingTransferDate
+            xml_attribute: true
+            type: string
+        createdThingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatedThingInfo
+            accessor:
+                getter: getCreatedThingInfo
+                setter: setCreatedThingInfo
+            xml_attribute: true
+            type: string
+        transferBases:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferBases
+            accessor:
+                getter: getTransferBases
+                setter: setTransferBases
+            type: array<AgentSIB\Diadoc\XmlTemplate\TransferBase820Type>
+            xml_list:
+                inline: false
+                entry_name: TransferBase
+                skip_when_empty: true
+        waybills:
+            expose: true
+            access_type: public_method
+            serialized_name: Waybills
+            accessor:
+                getter: getWaybills
+                setter: setWaybills
+            type: array<AgentSIB\Diadoc\XmlTemplate\WaybillsType\WaybillAType>
+            xml_list:
+                inline: false
+                entry_name: Waybill
+                skip_when_empty: true
+        additionalInfoId:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInfoId
+            accessor:
+                getter: getAdditionalInfoId
+                setter: setAdditionalInfoId
+            type: AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType
+        carrier:
+            expose: true
+            access_type: public_method
+            serialized_name: Carrier
+            accessor:
+                getter: getCarrier
+                setter: setCarrier
+            type: AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType
+        employee:
+            expose: true
+            access_type: public_method
+            serialized_name: Employee
+            accessor:
+                getter: getEmployee
+                setter: setEmployee
+            type: AgentSIB\Diadoc\XmlTemplate\EmployeeType
+        otherIssuer:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherIssuer
+            accessor:
+                getter: getOtherIssuer
+                setter: setOtherIssuer
+            type: AgentSIB\Diadoc\XmlTemplate\OtherIssuerType

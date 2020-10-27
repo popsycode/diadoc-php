@@ -1,0 +1,11 @@
+AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsWithHyphensType:
+    properties:
+        hyphenInn:
+            expose: true
+            access_type: public_method
+            serialized_name: HyphenInn
+            accessor:
+                getter: getHyphenInn
+                setter: setHyphenInn
+            xml_attribute: true
+            type: string

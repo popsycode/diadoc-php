@@ -1,0 +1,33 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType:
+    properties:
+        transPackageId:
+            expose: true
+            access_type: public_method
+            serialized_name: TransPackageId
+            accessor:
+                getter: getTransPackageId
+                setter: setTransPackageId
+            xml_attribute: true
+            type: string
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: Unit
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            xml_list:
+                inline: true
+                entry_name: Unit
+            type: array<string>
+        packageId:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageId
+            accessor:
+                getter: getPackageId
+                setter: setPackageId
+            xml_list:
+                inline: true
+                entry_name: PackageId
+            type: array<string>

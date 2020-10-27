@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType:
+    properties:
+        itemIdentificationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemIdentificationNumber
+            accessor:
+                getter: getItemIdentificationNumber
+                setter: setItemIdentificationNumber
+            xml_list:
+                inline: true
+                entry_name: ItemIdentificationNumber
+            type: array<AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType>

@@ -1,0 +1,11 @@
+AgentSIB\Diadoc\XmlTemplate\CorrectableInvoiceItemFieldsWithTwentyPercentAndTaxedByAgentType:
+    properties:
+        taxRate:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxRate
+            accessor:
+                getter: getTaxRate
+                setter: setTaxRate
+            xml_attribute: true
+            type: string

@@ -1,0 +1,20 @@
+AgentSIB\Diadoc\XmlTemplate\WaybillsType\WaybillAType:
+    properties:
+        transferDocumentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferDocumentNumber
+            accessor:
+                getter: getTransferDocumentNumber
+                setter: setTransferDocumentNumber
+            xml_attribute: true
+            type: string
+        transferDocumentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: TransferDocumentDate
+            accessor:
+                getter: getTransferDocumentDate
+                setter: setTransferDocumentDate
+            xml_attribute: true
+            type: string

@@ -1,0 +1,63 @@
+AgentSIB\Diadoc\XmlTemplate\AttorneyType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_attribute: true
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: string
+        issuerOrganizationName:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerOrganizationName
+            accessor:
+                getter: getIssuerOrganizationName
+                setter: setIssuerOrganizationName
+            xml_attribute: true
+            type: string
+        issuerAdditionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerAdditionalInfo
+            accessor:
+                getter: getIssuerAdditionalInfo
+                setter: setIssuerAdditionalInfo
+            xml_attribute: true
+            type: string
+        recipientAdditionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientAdditionalInfo
+            accessor:
+                getter: getRecipientAdditionalInfo
+                setter: setRecipientAdditionalInfo
+            xml_attribute: true
+            type: string
+        issuerPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: IssuerPerson
+            accessor:
+                getter: getIssuerPerson
+                setter: setIssuerPerson
+            type: AgentSIB\Diadoc\XmlTemplate\OfficialType
+        recipientPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: RecipientPerson
+            accessor:
+                getter: getRecipientPerson
+                setter: setRecipientPerson
+            type: AgentSIB\Diadoc\XmlTemplate\OfficialType

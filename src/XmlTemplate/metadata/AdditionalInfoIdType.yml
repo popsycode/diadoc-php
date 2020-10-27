@@ -1,0 +1,22 @@
+AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType:
+    properties:
+        infoFileId:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoFileId
+            accessor:
+                getter: getInfoFileId
+                setter: setInfoFileId
+            xml_attribute: true
+            type: string
+        additionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInfo
+            accessor:
+                getter: getAdditionalInfo
+                setter: setAdditionalInfo
+            xml_list:
+                inline: true
+                entry_name: AdditionalInfo
+            type: array<AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType>

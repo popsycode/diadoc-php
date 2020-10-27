@@ -1,0 +1,155 @@
+AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsManualFillingType:
+    properties:
+        orgType:
+            expose: true
+            access_type: public_method
+            serialized_name: OrgType
+            accessor:
+                getter: getOrgType
+                setter: setOrgType
+            xml_attribute: true
+            type: string
+        okopf:
+            expose: true
+            access_type: public_method
+            serialized_name: Okopf
+            accessor:
+                getter: getOkopf
+                setter: setOkopf
+            xml_attribute: true
+            type: \AnyType
+        okpo:
+            expose: true
+            access_type: public_method
+            serialized_name: Okpo
+            accessor:
+                getter: getOkpo
+                setter: setOkpo
+            xml_attribute: true
+            type: string
+        okdp:
+            expose: true
+            access_type: public_method
+            serialized_name: Okdp
+            accessor:
+                getter: getOkdp
+                setter: setOkdp
+            xml_attribute: true
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            xml_attribute: true
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_attribute: true
+            type: string
+        correspondentAccount:
+            expose: true
+            access_type: public_method
+            serialized_name: CorrespondentAccount
+            accessor:
+                getter: getCorrespondentAccount
+                setter: setCorrespondentAccount
+            xml_attribute: true
+            type: string
+        bankAccountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: BankAccountNumber
+            accessor:
+                getter: getBankAccountNumber
+                setter: setBankAccountNumber
+            xml_attribute: true
+            type: string
+        bankName:
+            expose: true
+            access_type: public_method
+            serialized_name: BankName
+            accessor:
+                getter: getBankName
+                setter: setBankName
+            xml_attribute: true
+            type: string
+        bankId:
+            expose: true
+            access_type: public_method
+            serialized_name: BankId
+            accessor:
+                getter: getBankId
+                setter: setBankId
+            xml_attribute: true
+            type: string
+        department:
+            expose: true
+            access_type: public_method
+            serialized_name: Department
+            accessor:
+                getter: getDepartment
+                setter: setDepartment
+            xml_attribute: true
+            type: string
+        organizationAdditionalInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationAdditionalInfo
+            accessor:
+                getter: getOrganizationAdditionalInfo
+                setter: setOrganizationAdditionalInfo
+            xml_attribute: true
+            type: string
+        organizationOrPersonInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: OrganizationOrPersonInfo
+            accessor:
+                getter: getOrganizationOrPersonInfo
+                setter: setOrganizationOrPersonInfo
+            xml_attribute: true
+            type: string
+        individualEntityRegistrationCertificate:
+            expose: true
+            access_type: public_method
+            serialized_name: IndividualEntityRegistrationCertificate
+            accessor:
+                getter: getIndividualEntityRegistrationCertificate
+                setter: setIndividualEntityRegistrationCertificate
+            xml_attribute: true
+            type: string
+        legalEntityId:
+            expose: true
+            access_type: public_method
+            serialized_name: LegalEntityId
+            accessor:
+                getter: getLegalEntityId
+                setter: setLegalEntityId
+            xml_attribute: true
+            type: string
+        shortOrgName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortOrgName
+            accessor:
+                getter: getShortOrgName
+                setter: setShortOrgName
+            xml_attribute: true
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            xml_attribute: true
+            type: string

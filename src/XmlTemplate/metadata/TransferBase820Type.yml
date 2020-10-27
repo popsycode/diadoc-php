@@ -1,0 +1,11 @@
+AgentSIB\Diadoc\XmlTemplate\TransferBase820Type:
+    properties:
+        baseDocumentId:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseDocumentId
+            accessor:
+                getter: getBaseDocumentId
+                setter: setBaseDocumentId
+            xml_attribute: true
+            type: string

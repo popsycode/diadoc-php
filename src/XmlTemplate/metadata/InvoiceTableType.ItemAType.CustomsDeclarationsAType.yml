@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\CustomsDeclarationsAType:
+    properties:
+        customsDeclaration:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomsDeclaration
+            accessor:
+                getter: getCustomsDeclaration
+                setter: setCustomsDeclaration
+            xml_list:
+                inline: true
+                entry_name: CustomsDeclaration
+            type: array<AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType>

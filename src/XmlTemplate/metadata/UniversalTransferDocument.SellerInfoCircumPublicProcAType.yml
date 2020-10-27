@@ -1,0 +1,65 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SellerInfoCircumPublicProcAType:
+    properties:
+        dateStateContract:
+            expose: true
+            access_type: public_method
+            serialized_name: DateStateContract
+            accessor:
+                getter: getDateStateContract
+                setter: setDateStateContract
+            xml_attribute: true
+            type: string
+        numberStateContract:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberStateContract
+            accessor:
+                getter: getNumberStateContract
+                setter: setNumberStateContract
+            xml_attribute: true
+            type: string
+        personalAccountSeller:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonalAccountSeller
+            accessor:
+                getter: getPersonalAccountSeller
+                setter: setPersonalAccountSeller
+            xml_attribute: true
+            type: string
+        sellerBudjetClassCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerBudjetClassCode
+            accessor:
+                getter: getSellerBudjetClassCode
+                setter: setSellerBudjetClassCode
+            xml_attribute: true
+            type: string
+        sellerTargetCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerTargetCode
+            accessor:
+                getter: getSellerTargetCode
+                setter: setSellerTargetCode
+            xml_attribute: true
+            type: string
+        sellerTreasuryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerTreasuryCode
+            accessor:
+                getter: getSellerTreasuryCode
+                setter: setSellerTreasuryCode
+            xml_attribute: true
+            type: string
+        sellerTreasuryName:
+            expose: true
+            access_type: public_method
+            serialized_name: SellerTreasuryName
+            accessor:
+                getter: getSellerTreasuryName
+                setter: setSellerTreasuryName
+            xml_attribute: true
+            type: string

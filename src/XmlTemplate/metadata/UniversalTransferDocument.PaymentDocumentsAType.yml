@@ -1,0 +1,13 @@
+AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\PaymentDocumentsAType:
+    properties:
+        document:
+            expose: true
+            access_type: public_method
+            serialized_name: Document
+            accessor:
+                getter: getDocument
+                setter: setDocument
+            xml_list:
+                inline: true
+                entry_name: Document
+            type: array<AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType>
