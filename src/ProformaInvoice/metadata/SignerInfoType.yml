@@ -1,0 +1,18 @@
+AgentSIB\Diadoc\ProformaInvoice\SignerInfoType:
+    properties:
+        signerDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerDetails
+            accessor:
+                getter: getSignerDetails
+                setter: setSignerDetails
+            type: AgentSIB\Diadoc\ProformaInvoice\SignerDetailsType
+        signerReference:
+            expose: true
+            access_type: public_method
+            serialized_name: SignerReference
+            accessor:
+                getter: getSignerReference
+                setter: setSignerReference
+            type: AgentSIB\Diadoc\ProformaInvoice\SignerReferenceInfoType

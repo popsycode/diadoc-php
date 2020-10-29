@@ -22,7 +22,8 @@
     "autoload": {
         "psr-4": {
             "AgentSIB\\Diadoc\\": "src/",
-            "AgentSIB\\Diadoc\\XmlTemplate\\": "src/XmlTemplate/src/"
+            "AgentSIB\\Diadoc\\XmlTemplate\\": "src/XmlTemplate/src/",
+            "AgentSIB\\Diadoc\\ProformaInvoice\\": "src/ProformaInvoice/src/"
         }
     },
     "repositories": [

@@ -1,0 +1,18 @@
+AgentSIB\Diadoc\ProformaInvoice\VatType:
+    properties:
+        vatTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: VatTotal
+            accessor:
+                getter: getVatTotal
+                setter: setVatTotal
+            type: float
+        withoutVat:
+            expose: true
+            access_type: public_method
+            serialized_name: WithoutVat
+            accessor:
+                getter: getWithoutVat
+                setter: setWithoutVat
+            type: AgentSIB\Diadoc\ProformaInvoice\EmptyType

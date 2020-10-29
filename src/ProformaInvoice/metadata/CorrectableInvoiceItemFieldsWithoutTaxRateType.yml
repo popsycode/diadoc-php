@@ -1,0 +1,65 @@
+AgentSIB\Diadoc\ProformaInvoice\CorrectableInvoiceItemFieldsWithoutTaxRateType:
+    properties:
+        unit:
+            expose: true
+            access_type: public_method
+            serialized_name: Unit
+            accessor:
+                getter: getUnit
+                setter: setUnit
+            xml_attribute: true
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_attribute: true
+            type: float
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            xml_attribute: true
+            type: float
+        excise:
+            expose: true
+            access_type: public_method
+            serialized_name: Excise
+            accessor:
+                getter: getExcise
+                setter: setExcise
+            xml_attribute: true
+            type: float
+        subtotalWithVatExcluded:
+            expose: true
+            access_type: public_method
+            serialized_name: SubtotalWithVatExcluded
+            accessor:
+                getter: getSubtotalWithVatExcluded
+                setter: setSubtotalWithVatExcluded
+            xml_attribute: true
+            type: float
+        vat:
+            expose: true
+            access_type: public_method
+            serialized_name: Vat
+            accessor:
+                getter: getVat
+                setter: setVat
+            xml_attribute: true
+            type: float
+        subtotal:
+            expose: true
+            access_type: public_method
+            serialized_name: Subtotal
+            accessor:
+                getter: getSubtotal
+                setter: setSubtotal
+            xml_attribute: true
+            type: float

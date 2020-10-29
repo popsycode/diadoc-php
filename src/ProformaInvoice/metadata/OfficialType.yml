@@ -1,0 +1,38 @@
+AgentSIB\Diadoc\ProformaInvoice\OfficialType:
+    properties:
+        lastName:
+            expose: true
+            access_type: public_method
+            serialized_name: LastName
+            accessor:
+                getter: getLastName
+                setter: setLastName
+            xml_attribute: true
+            type: string
+        firstName:
+            expose: true
+            access_type: public_method
+            serialized_name: FirstName
+            accessor:
+                getter: getFirstName
+                setter: setFirstName
+            xml_attribute: true
+            type: string
+        middleName:
+            expose: true
+            access_type: public_method
+            serialized_name: MiddleName
+            accessor:
+                getter: getMiddleName
+                setter: setMiddleName
+            xml_attribute: true
+            type: string
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            xml_attribute: true
+            type: string

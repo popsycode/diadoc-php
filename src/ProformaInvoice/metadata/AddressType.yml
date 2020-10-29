@@ -1,0 +1,26 @@
+AgentSIB\Diadoc\ProformaInvoice\AddressType:
+    properties:
+        russianAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RussianAddress
+            accessor:
+                getter: getRussianAddress
+                setter: setRussianAddress
+            type: AgentSIB\Diadoc\ProformaInvoice\RussianAddressType
+        foreignAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ForeignAddress
+            accessor:
+                getter: getForeignAddress
+                setter: setForeignAddress
+            type: AgentSIB\Diadoc\ProformaInvoice\ForeignAddressType
+        addressCode:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressCode
+            accessor:
+                getter: getAddressCode
+                setter: setAddressCode
+            type: string
