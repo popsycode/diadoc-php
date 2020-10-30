@@ -14,35 +14,35 @@ class ExtendedOrganizationDetailsType extends ExtendedOrganizationDetailsManualF
     /**
      * НаимОрг - название организации
      *
-     * @var string $orgName
+     * @property string $orgName
      */
     private $orgName = null;
 
     /**
      * ИНН ФЛ-ИНН - ИНН
      *
-     * @var string $inn
+     * @property string $inn
      */
     private $inn = null;
 
     /**
      * КПП
      *
-     * @var string $kpp
+     * @property string $kpp
      */
     private $kpp = null;
 
     /**
      * идентификатор участника ЭДО
      *
-     * @var string $fnsParticipantId
+     * @property string $fnsParticipantId
      */
     private $fnsParticipantId = null;
 
     /**
      * Адрес
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AddressType $address
+     * @property \AgentSIB\Diadoc\XmlTemplate\AddressType $address
      */
     private $address = null;
 

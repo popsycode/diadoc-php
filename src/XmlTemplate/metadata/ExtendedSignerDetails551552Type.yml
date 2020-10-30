@@ -8,4 +8,4 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetails551552Type:
                 getter: getSignerPowers
                 setter: setSignerPowers
             xml_attribute: true
-            type: int
+            type: integer

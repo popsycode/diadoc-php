@@ -14,49 +14,49 @@ class CorrectableInvoiceItemFieldsWithoutTaxRateType
     /**
      * единицы измерения товара (код)
      *
-     * @var string $unit
+     * @property string $unit
      */
     private $unit = null;
 
     /**
      * количество единиц товара
      *
-     * @var float $quantity
+     * @property float $quantity
      */
     private $quantity = null;
 
     /**
      * цена за единицу товара
      *
-     * @var float $price
+     * @property float $price
      */
     private $price = null;
 
     /**
      * акциз
      *
-     * @var float $excise
+     * @property float $excise
      */
     private $excise = null;
 
     /**
      * сумма без учета налога
      *
-     * @var float $subtotalWithVatExcluded
+     * @property float $subtotalWithVatExcluded
      */
     private $subtotalWithVatExcluded = null;
 
     /**
      * сумма налога
      *
-     * @var float $vat
+     * @property float $vat
      */
     private $vat = null;
 
     /**
      * сумма с учетом налога
      *
-     * @var float $subtotal
+     * @property float $subtotal
      */
     private $subtotal = null;
 

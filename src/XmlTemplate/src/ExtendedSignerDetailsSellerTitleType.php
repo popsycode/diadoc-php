@@ -21,7 +21,7 @@ class ExtendedSignerDetailsSellerTitleType extends ExtendedSignerDetailsType
      *  5 - лицо, совершившее сделку, операцию и ответственное за её оформление и за подписание счетов-фактур
      *  6 - лицо, ответственное за оформление свершившегося события и за подписание счетов-фактур
      *
-     * @var int $signerPowers
+     * @property integer $signerPowers
      */
     private $signerPowers = null;
 
@@ -37,7 +37,7 @@ class ExtendedSignerDetailsSellerTitleType extends ExtendedSignerDetailsType
      *  5 - лицо, совершившее сделку, операцию и ответственное за её оформление и за подписание счетов-фактур
      *  6 - лицо, ответственное за оформление свершившегося события и за подписание счетов-фактур
      *
-     * @return int
+     * @return integer
      */
     public function getSignerPowers()
     {
@@ -56,7 +56,7 @@ class ExtendedSignerDetailsSellerTitleType extends ExtendedSignerDetailsType
      *  5 - лицо, совершившее сделку, операцию и ответственное за её оформление и за подписание счетов-фактур
      *  6 - лицо, ответственное за оформление свершившегося события и за подписание счетов-фактур
      *
-     * @param int $signerPowers
+     * @param integer $signerPowers
      * @return self
      */
     public function setSignerPowers($signerPowers)

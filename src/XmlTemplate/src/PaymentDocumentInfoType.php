@@ -14,21 +14,21 @@ class PaymentDocumentInfoType
     /**
      * ДатаПРД - Дата составления платежно-расчетного документа
      *
-     * @var string $date
+     * @property string $date
      */
     private $date = null;
 
     /**
      * НомерПРД - Номер платежно-расчетного документа
      *
-     * @var string $number
+     * @property string $number
      */
     private $number = null;
 
     /**
      * СуммаПРД - Сумма платежно-расчетного документа
      *
-     * @var float $total
+     * @property float $total
      */
     private $total = null;
 

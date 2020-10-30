@@ -14,21 +14,21 @@ class InvoiceTotalsDiffType
     /**
      * сумма без учета налога
      *
-     * @var float $totalWithVatExcluded
+     * @property float $totalWithVatExcluded
      */
     private $totalWithVatExcluded = null;
 
     /**
      * сумма налога
      *
-     * @var float $vat
+     * @property float $vat
      */
     private $vat = null;
 
     /**
      * сумма всего
      *
-     * @var float $total
+     * @property float $total
      */
     private $total = null;
 

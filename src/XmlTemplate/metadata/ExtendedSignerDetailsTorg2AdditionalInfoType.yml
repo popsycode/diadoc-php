@@ -8,7 +8,7 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsTorg2AdditionalInfoType:
                 getter: getSignerPowers
                 setter: setSignerPowers
             xml_attribute: true
-            type: int
+            type: integer
         signerStatus:
             expose: true
             access_type: public_method
@@ -17,4 +17,4 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsTorg2AdditionalInfoType:
                 getter: getSignerStatus
                 setter: setSignerStatus
             xml_attribute: true
-            type: int
+            type: integer

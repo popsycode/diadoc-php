@@ -18,7 +18,7 @@ class ExtendedSignerDetailsType extends ExtendedSignerDetailsBaseType
      *  3 - работник иной уполномоченной организации;
      *  4 - уполномоченное физическое лицо, в том числе индивидуальный предприниматель.
      *
-     * @var int $signerStatus
+     * @property integer $signerStatus
      */
     private $signerStatus = null;
 
@@ -31,7 +31,7 @@ class ExtendedSignerDetailsType extends ExtendedSignerDetailsBaseType
      *  3 - работник иной уполномоченной организации;
      *  4 - уполномоченное физическое лицо, в том числе индивидуальный предприниматель.
      *
-     * @return int
+     * @return integer
      */
     public function getSignerStatus()
     {
@@ -47,7 +47,7 @@ class ExtendedSignerDetailsType extends ExtendedSignerDetailsBaseType
      *  3 - работник иной уполномоченной организации;
      *  4 - уполномоченное физическое лицо, в том числе индивидуальный предприниматель.
      *
-     * @param int $signerStatus
+     * @param integer $signerStatus
      * @return self
      */
     public function setSignerStatus($signerStatus)

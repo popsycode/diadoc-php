@@ -19,7 +19,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  7 - председатель комиссии
      *  8 - член комиссии
      *
-     * @var int $signerPowers
+     * @property integer $signerPowers
      */
     private $signerPowers = null;
 
@@ -30,7 +30,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @var int $signerStatus
+     * @property integer $signerStatus
      */
     private $signerStatus = null;
 
@@ -44,7 +44,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  7 - председатель комиссии
      *  8 - член комиссии
      *
-     * @return int
+     * @return integer
      */
     public function getSignerPowers()
     {
@@ -61,7 +61,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  7 - председатель комиссии
      *  8 - член комиссии
      *
-     * @param int $signerPowers
+     * @param integer $signerPowers
      * @return self
      */
     public function setSignerPowers($signerPowers)
@@ -79,7 +79,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @return int
+     * @return integer
      */
     public function getSignerStatus()
     {
@@ -95,7 +95,7 @@ class ExtendedSignerDetailsTorg2BuyerType extends ExtendedSignerDetailsBaseType
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @param int $signerStatus
+     * @param integer $signerStatus
      * @return self
      */
     public function setSignerStatus($signerStatus)

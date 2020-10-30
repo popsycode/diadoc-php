@@ -14,28 +14,28 @@ class InvoiceItemAmountsDiffType
     /**
      * акциз
      *
-     * @var float $excise
+     * @property float $excise
      */
     private $excise = null;
 
     /**
      * сумма без учета налога
      *
-     * @var float $subtotalWithVatExcluded
+     * @property float $subtotalWithVatExcluded
      */
     private $subtotalWithVatExcluded = null;
 
     /**
      * сумма налога
      *
-     * @var float $vat
+     * @property float $vat
      */
     private $vat = null;
 
     /**
      * сумма с учетом налога
      *
-     * @var float $subtotal
+     * @property float $subtotal
      */
     private $subtotal = null;
 

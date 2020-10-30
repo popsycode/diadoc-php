@@ -12,34 +12,34 @@ class SignerDetailsType
 {
 
     /**
-     * @var string $lastName
+     * @property string $lastName
      */
     private $lastName = null;
 
     /**
-     * @var string $firstName
+     * @property string $firstName
      */
     private $firstName = null;
 
     /**
-     * @var string $middleName
+     * @property string $middleName
      */
     private $middleName = null;
 
     /**
      * Обязательно для титула покупателя
      *
-     * @var string $position
+     * @property string $position
      */
     private $position = null;
 
     /**
-     * @var string $inn
+     * @property string $inn
      */
     private $inn = null;
 
     /**
-     * @var string $soleProprietorRegistrationCertificate
+     * @property string $soleProprietorRegistrationCertificate
      */
     private $soleProprietorRegistrationCertificate = null;
 

@@ -14,46 +14,46 @@ class InvoiceTableType
     /**
      * СтТовБезНДСВсего - Сумма без учета налога
      *
-     * @var float $totalWithVatExcluded
+     * @property float $totalWithVatExcluded
      */
     private $totalWithVatExcluded = null;
 
     /**
      * СумНалВсего - Сумма налога всего
      *
-     * @var float $vat
+     * @property float $vat
      */
     private $vat = null;
 
     /**
      * Без НДС. Указывается, если для суммы налога всего не требуется НДС
      *
-     * @var string $withoutVat
+     * @property string $withoutVat
      */
     private $withoutVat = null;
 
     /**
      * СтТовУчНалВсего - Сумма всего
      *
-     * @var float $total
+     * @property float $total
      */
     private $total = null;
 
     /**
      * НеттоВс - Нетто всего
      *
-     * @var float $totalNet
+     * @property float $totalNet
      */
     private $totalNet = null;
 
     /**
      * СведТов - информация о товарах
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType[] $item
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType[] $item
      */
-    private $item = [
+    private $item = array(
         
-    ];
+    );
 
     /**
      * Gets as totalWithVatExcluded
@@ -204,8 +204,8 @@ class InvoiceTableType
      *
      * СведТов - информация о товарах
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetItem($index)
     {
@@ -217,7 +217,7 @@ class InvoiceTableType
      *
      * СведТов - информация о товарах
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetItem($index)

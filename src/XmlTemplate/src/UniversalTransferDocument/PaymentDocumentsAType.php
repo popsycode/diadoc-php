@@ -11,11 +11,11 @@ class PaymentDocumentsAType
     /**
      * СвПРД - платежно-расчетные документы
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType[] $document
+     * @property \AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType[] $document
      */
-    private $document = [
+    private $document = array(
         
-    ];
+    );
 
     /**
      * Adds as document
@@ -36,8 +36,8 @@ class PaymentDocumentsAType
      *
      * СвПРД - платежно-расчетные документы
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetDocument($index)
     {
@@ -49,7 +49,7 @@ class PaymentDocumentsAType
      *
      * СвПРД - платежно-расчетные документы
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetDocument($index)

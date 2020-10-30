@@ -81,7 +81,7 @@ AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument:
                 getter: getRevisionNumber
                 setter: setRevisionNumber
             xml_attribute: true
-            type: int
+            type: integer
         documentCreator:
             expose: true
             access_type: public_method

@@ -14,7 +14,7 @@ class ExtendedOrganizationDetailsWithHyphensType extends ExtendedOrganizationDet
     /**
      * ДефИННФЛ, ДефИННЮЛ
      *
-     * @var string $hyphenInn
+     * @property string $hyphenInn
      */
     private $hyphenInn = null;
 

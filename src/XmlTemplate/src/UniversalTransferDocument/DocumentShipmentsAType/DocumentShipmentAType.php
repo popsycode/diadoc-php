@@ -11,21 +11,21 @@ class DocumentShipmentAType
     /**
      * НаимДокОтгр - Наименование документа об отгрузке
      *
-     * @var string $name
+     * @property string $name
      */
     private $name = null;
 
     /**
      * НомДокОтгр - Номер документа об отгрузке
      *
-     * @var string $number
+     * @property string $number
      */
     private $number = null;
 
     /**
      * ДатаДокОтгр - Дата документа об отгрузке
      *
-     * @var string $date
+     * @property string $date
      */
     private $date = null;
 

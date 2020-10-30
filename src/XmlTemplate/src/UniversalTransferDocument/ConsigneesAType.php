@@ -11,11 +11,11 @@ class ConsigneesAType
     /**
      * ГрузПолуч - грузополучатель
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $consignee
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $consignee
      */
-    private $consignee = [
+    private $consignee = array(
         
-    ];
+    );
 
     /**
      * Adds as consignee
@@ -36,8 +36,8 @@ class ConsigneesAType
      *
      * ГрузПолуч - грузополучатель
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetConsignee($index)
     {
@@ -49,7 +49,7 @@ class ConsigneesAType
      *
      * ГрузПолуч - грузополучатель
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetConsignee($index)

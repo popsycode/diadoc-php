@@ -14,119 +14,119 @@ class ExtendedOrganizationDetailsManualFillingType
     /**
      * СвИП - СвЮЛУч - СвИнНеУч
      *
-     * @var string $orgType
+     * @property string $orgType
      */
     private $orgType = null;
 
     /**
      * ОКОПФ - Код организационно-правовой формы по ОКОПФ
      *
-     * @var mixed $okopf
+     * @property mixed $okopf
      */
     private $okopf = null;
 
     /**
      * ОКПО - код в общероссийском классификаторе предприятий и организаций
      *
-     * @var string $okpo
+     * @property string $okpo
      */
     private $okpo = null;
 
     /**
      * ОКДП - код основного вида деятельности по ОКДП
      *
-     * @var string $okdp
+     * @property string $okdp
      */
     private $okdp = null;
 
     /**
      * Тлф - Номер контактного телефона/факс
      *
-     * @var string $phone
+     * @property string $phone
      */
     private $phone = null;
 
     /**
      * ЭлПочта - Адрес электронной почты
      *
-     * @var string $email
+     * @property string $email
      */
     private $email = null;
 
     /**
      * КорСчет - Корреспондентский счёт
      *
-     * @var string $correspondentAccount
+     * @property string $correspondentAccount
      */
     private $correspondentAccount = null;
 
     /**
      * НомерСчета - номер банковского счета
      *
-     * @var string $bankAccountNumber
+     * @property string $bankAccountNumber
      */
     private $bankAccountNumber = null;
 
     /**
      * НаимБанк - название банка
      *
-     * @var string $bankName
+     * @property string $bankName
      */
     private $bankName = null;
 
     /**
      * БИК
      *
-     * @var string $bankId
+     * @property string $bankId
      */
     private $bankId = null;
 
     /**
      * СтруктПодр - структурное подразделение
      *
-     * @var string $department
+     * @property string $department
      */
     private $department = null;
 
     /**
      * ИнфДляУчаст - Информация для участника
      *
-     * @var string $organizationAdditionalInfo
+     * @property string $organizationAdditionalInfo
      */
     private $organizationAdditionalInfo = null;
 
     /**
      * ИныеСвед - Иные сведения, идентифицирующие ФЛ или ЮЛ
      *
-     * @var string $organizationOrPersonInfo
+     * @property string $organizationOrPersonInfo
      */
     private $organizationOrPersonInfo = null;
 
     /**
      * СвГосРегИп - Реквизиты свидетельства о государственной регистрации ИП
      *
-     * @var string $individualEntityRegistrationCertificate
+     * @property string $individualEntityRegistrationCertificate
      */
     private $individualEntityRegistrationCertificate = null;
 
     /**
      * Идентиф - Идентификатор ЮЛ, нужен для автоматизированной обработки
      *
-     * @var string $legalEntityId
+     * @property string $legalEntityId
      */
     private $legalEntityId = null;
 
     /**
      * КраткНазв - Краткое название
      *
-     * @var string $shortOrgName
+     * @property string $shortOrgName
      */
     private $shortOrgName = null;
 
     /**
      * Страна
      *
-     * @var string $country
+     * @property string $country
      */
     private $country = null;
 

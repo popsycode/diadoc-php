@@ -9,18 +9,18 @@ class SignersAType
 {
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\SignerReferenceType[] $signerReference
+     * @property \AgentSIB\Diadoc\XmlTemplate\SignerReferenceType[] $signerReference
      */
-    private $signerReference = [
+    private $signerReference = array(
         
-    ];
+    );
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsSellerTitleType[] $signerDetails
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedSignerDetailsSellerTitleType[] $signerDetails
      */
-    private $signerDetails = [
+    private $signerDetails = array(
         
-    ];
+    );
 
     /**
      * Adds as signerReference
@@ -37,8 +37,8 @@ class SignersAType
     /**
      * isset signerReference
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetSignerReference($index)
     {
@@ -48,7 +48,7 @@ class SignersAType
     /**
      * unset signerReference
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetSignerReference($index)
@@ -93,8 +93,8 @@ class SignersAType
     /**
      * isset signerDetails
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetSignerDetails($index)
     {
@@ -104,7 +104,7 @@ class SignersAType
     /**
      * unset signerDetails
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetSignerDetails($index)

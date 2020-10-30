@@ -11,77 +11,77 @@ class ItemAType
     /**
      * НаимТов - наименование товара
      *
-     * @var string $product
+     * @property string $product
      */
     private $product = null;
 
     /**
      * ОКЕИ_Тов - единицы измерения товара (код)
      *
-     * @var string $unit
+     * @property string $unit
      */
     private $unit = null;
 
     /**
      * НаимЕдИзм - наименование единицы измерения товара.Пользователь заполняет, если Unit=ОКЕИ_Тов='0000'.
      *
-     * @var string $unitName
+     * @property string $unitName
      */
     private $unitName = null;
 
     /**
      * КолТов - количество единиц товара
      *
-     * @var float $quantity
+     * @property float $quantity
      */
     private $quantity = null;
 
     /**
      * ЦенаТов - цена за единицу товара
      *
-     * @var float $price
+     * @property float $price
      */
     private $price = null;
 
     /**
      * СумАкциз - акциз
      *
-     * @var float $excise
+     * @property float $excise
      */
     private $excise = null;
 
     /**
      * НалСт - ставка налога
      *
-     * @var string $taxRate
+     * @property string $taxRate
      */
     private $taxRate = null;
 
     /**
      * СтТовБезНДС - сумма без учета налога
      *
-     * @var float $subtotalWithVatExcluded
+     * @property float $subtotalWithVatExcluded
      */
     private $subtotalWithVatExcluded = null;
 
     /**
      * СумНал - сумма налога
      *
-     * @var float $vat
+     * @property float $vat
      */
     private $vat = null;
 
     /**
      * Без НДС. Указывается, если для товара не требуется НДС
      *
-     * @var string $withoutVat
+     * @property string $withoutVat
      */
     private $withoutVat = null;
 
     /**
      * СтТовУчНал - сумма всего
      *
-     * @var float $subtotal
+     * @property float $subtotal
      */
     private $subtotal = null;
 
@@ -93,83 +93,83 @@ class ItemAType
      *  4 – имущественные права;
      *  5 - иное
      *
-     * @var int $itemMark
+     * @property integer $itemMark
      */
     private $itemMark = null;
 
     /**
      * ДопПризн - Дополнительная информация о признаке
      *
-     * @var string $additionalProperty
+     * @property string $additionalProperty
      */
     private $additionalProperty = null;
 
     /**
      * КодТов - Характеристика/код/артикул/сорт товара
      *
-     * @var string $itemVendorCode
+     * @property string $itemVendorCode
      */
     private $itemVendorCode = null;
 
     /**
      * НадлОтп - Количество надлежит отпустить
      *
-     * @var float $itemToRelease
+     * @property float $itemToRelease
      */
     private $itemToRelease = null;
 
     /**
      * ХарактерТов - Характеристика/описание товара
      *
-     * @var string $itemCharact
+     * @property string $itemCharact
      */
     private $itemCharact = null;
 
     /**
      * АртикулТов - Артикул товара
      *
-     * @var string $itemArticle
+     * @property string $itemArticle
      */
     private $itemArticle = null;
 
     /**
      * СортТов - Сорт товара
      *
-     * @var string $itemKind
+     * @property string $itemKind
      */
     private $itemKind = null;
 
     /**
      * КодКат - Код каталога
      *
-     * @var string $catalogCode
+     * @property string $catalogCode
      */
     private $catalogCode = null;
 
     /**
      * КодВидТов - Код вида товара
      *
-     * @var string $itemTypeCode
+     * @property string $itemTypeCode
      */
     private $itemTypeCode = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType[] $customsDeclarations
+     * @property \AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType[] $customsDeclarations
      */
     private $customsDeclarations = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfos
+     * @property \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfos
      */
     private $additionalInfos = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType[] $itemTracingInfos
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType[] $itemTracingInfos
      */
     private $itemTracingInfos = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType[] $itemIdentificationNumbers
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType[] $itemIdentificationNumbers
      */
     private $itemIdentificationNumbers = null;
 
@@ -469,7 +469,7 @@ class ItemAType
      *  4 – имущественные права;
      *  5 - иное
      *
-     * @return int
+     * @return integer
      */
     public function getItemMark()
     {
@@ -486,7 +486,7 @@ class ItemAType
      *  4 – имущественные права;
      *  5 - иное
      *
-     * @param int $itemMark
+     * @param integer $itemMark
      * @return self
      */
     public function setItemMark($itemMark)
@@ -718,8 +718,8 @@ class ItemAType
     /**
      * isset customsDeclarations
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetCustomsDeclarations($index)
     {
@@ -729,7 +729,7 @@ class ItemAType
     /**
      * unset customsDeclarations
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetCustomsDeclarations($index)
@@ -774,8 +774,8 @@ class ItemAType
     /**
      * isset additionalInfos
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetAdditionalInfos($index)
     {
@@ -785,7 +785,7 @@ class ItemAType
     /**
      * unset additionalInfos
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetAdditionalInfos($index)
@@ -830,8 +830,8 @@ class ItemAType
     /**
      * isset itemTracingInfos
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetItemTracingInfos($index)
     {
@@ -841,7 +841,7 @@ class ItemAType
     /**
      * unset itemTracingInfos
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetItemTracingInfos($index)
@@ -886,8 +886,8 @@ class ItemAType
     /**
      * isset itemIdentificationNumbers
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetItemIdentificationNumbers($index)
     {
@@ -897,7 +897,7 @@ class ItemAType
     /**
      * unset itemIdentificationNumbers
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetItemIdentificationNumbers($index)

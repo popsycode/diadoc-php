@@ -14,28 +14,28 @@ class TransferBaseType
     /**
      * НаимОсн - Наименование документа-основания отгрузки
      *
-     * @var string $baseDocumentName
+     * @property string $baseDocumentName
      */
     private $baseDocumentName = null;
 
     /**
      * НомОсн - Номер документа-основания отгрузки
      *
-     * @var string $baseDocumentNumber
+     * @property string $baseDocumentNumber
      */
     private $baseDocumentNumber = null;
 
     /**
      * ДатаОсн - Дата документа-основания отгрузки
      *
-     * @var string $baseDocumentDate
+     * @property string $baseDocumentDate
      */
     private $baseDocumentDate = null;
 
     /**
      * ДопСвОсн - Дополнительные сведения документа-основания отгрузки
      *
-     * @var string $baseDocumentInfo
+     * @property string $baseDocumentInfo
      */
     private $baseDocumentInfo = null;
 

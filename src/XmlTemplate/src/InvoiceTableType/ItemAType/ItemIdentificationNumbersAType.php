@@ -11,11 +11,11 @@ class ItemIdentificationNumbersAType
     /**
      * НомСредИдентТов - Номер средств идентификации товаров
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType[] $itemIdentificationNumber
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemIdentificationNumbersAType\ItemIdentificationNumberAType[] $itemIdentificationNumber
      */
-    private $itemIdentificationNumber = [
+    private $itemIdentificationNumber = array(
         
-    ];
+    );
 
     /**
      * Adds as itemIdentificationNumber
@@ -36,8 +36,8 @@ class ItemIdentificationNumbersAType
      *
      * НомСредИдентТов - Номер средств идентификации товаров
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetItemIdentificationNumber($index)
     {
@@ -49,7 +49,7 @@ class ItemIdentificationNumbersAType
      *
      * НомСредИдентТов - Номер средств идентификации товаров
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetItemIdentificationNumber($index)

@@ -11,11 +11,11 @@ class SellersAType
     /**
      * СвПрод - сведения о продавце
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $seller
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $seller
      */
-    private $seller = [
+    private $seller = array(
         
-    ];
+    );
 
     /**
      * Adds as seller
@@ -36,8 +36,8 @@ class SellersAType
      *
      * СвПрод - сведения о продавце
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetSeller($index)
     {
@@ -49,7 +49,7 @@ class SellersAType
      *
      * СвПрод - сведения о продавце
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetSeller($index)

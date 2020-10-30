@@ -1,0 +1,18 @@
+AgentSIB\Diadoc\XmlTemplate\ProformaInvoiceItemType\ExciseAType:
+    properties:
+        exciseTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: ExciseTotal
+            accessor:
+                getter: getExciseTotal
+                setter: setExciseTotal
+            type: float
+        withoutExcise:
+            expose: true
+            access_type: public_method
+            serialized_name: WithoutExcise
+            accessor:
+                getter: getWithoutExcise
+                setter: setWithoutExcise
+            type: AgentSIB\Diadoc\XmlTemplate\EmptyType

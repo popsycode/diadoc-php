@@ -14,96 +14,96 @@ class TransferInfoType
     /**
      * СодОпер - Содержание операции
      *
-     * @var string $operationInfo
+     * @property string $operationInfo
      */
     private $operationInfo = null;
 
     /**
      * ВидОпер - Вид операции
      *
-     * @var string $operationType
+     * @property string $operationType
      */
     private $operationType = null;
 
     /**
      * ДатаПер - Дата отгрузки
      *
-     * @var string $transferDate
+     * @property string $transferDate
      */
     private $transferDate = null;
 
     /**
      * ДатаНач - Дата начала периода оказания услуг (выполнения работ, поставки товаров)
      *
-     * @var string $transferStartDate
+     * @property string $transferStartDate
      */
     private $transferStartDate = null;
 
     /**
      * ДатаОкон - Дата окончания периода оказания услуг (выполнения работ, поставки товаров)
      *
-     * @var string $transferEndDate
+     * @property string $transferEndDate
      */
     private $transferEndDate = null;
 
     /**
      * СвТранГруз - Сведения о транспортировке и грузе
      *
-     * @var string $transferTextInfo
+     * @property string $transferTextInfo
      */
     private $transferTextInfo = null;
 
     /**
      * ДатаПерВещ - Дата передачи вещи, изготовленной по договору
      *
-     * @var string $createdThingTransferDate
+     * @property string $createdThingTransferDate
      */
     private $createdThingTransferDate = null;
 
     /**
      * СвПерВещ - Сведения о передаче, изготовленной по договору
      *
-     * @var string $createdThingInfo
+     * @property string $createdThingInfo
      */
     private $createdThingInfo = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type[] $transferBases
+     * @property \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type[] $transferBases
      */
     private $transferBases = null;
 
     /**
      * ТранНакл - Транспортная накладная
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\WaybillsType\WaybillAType[] $waybills
+     * @property \AgentSIB\Diadoc\XmlTemplate\WaybillsType\WaybillAType[] $waybills
      */
     private $waybills = null;
 
     /**
      * ИнфПолФХЖ3 - Информационное поле документа
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType $additionalInfoId
+     * @property \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType $additionalInfoId
      */
     private $additionalInfoId = null;
 
     /**
      * Перевозчик
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType $carrier
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType $carrier
      */
     private $carrier = null;
 
     /**
      * РабОргПрод
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\EmployeeType $employee
+     * @property \AgentSIB\Diadoc\XmlTemplate\EmployeeType $employee
      */
     private $employee = null;
 
     /**
      * ИнЛицо
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\OtherIssuerType $otherIssuer
+     * @property \AgentSIB\Diadoc\XmlTemplate\OtherIssuerType $otherIssuer
      */
     private $otherIssuer = null;
 
@@ -330,8 +330,8 @@ class TransferInfoType
     /**
      * isset transferBases
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetTransferBases($index)
     {
@@ -341,7 +341,7 @@ class TransferInfoType
     /**
      * unset transferBases
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetTransferBases($index)
@@ -390,8 +390,8 @@ class TransferInfoType
      *
      * ТранНакл - Транспортная накладная
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetWaybills($index)
     {
@@ -403,7 +403,7 @@ class TransferInfoType
      *
      * ТранНакл - Транспортная накладная
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetWaybills($index)

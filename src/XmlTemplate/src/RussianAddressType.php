@@ -14,63 +14,63 @@ class RussianAddressType
     /**
      * индекс
      *
-     * @var string $zipCode
+     * @property string $zipCode
      */
     private $zipCode = null;
 
     /**
      * регион (код)
      *
-     * @var string $region
+     * @property string $region
      */
     private $region = null;
 
     /**
      * район
      *
-     * @var string $territory
+     * @property string $territory
      */
     private $territory = null;
 
     /**
      * город
      *
-     * @var string $city
+     * @property string $city
      */
     private $city = null;
 
     /**
      * населенный пункт
      *
-     * @var string $locality
+     * @property string $locality
      */
     private $locality = null;
 
     /**
      * улица
      *
-     * @var string $street
+     * @property string $street
      */
     private $street = null;
 
     /**
      * дом
      *
-     * @var string $building
+     * @property string $building
      */
     private $building = null;
 
     /**
      * корпус
      *
-     * @var string $block
+     * @property string $block
      */
     private $block = null;
 
     /**
      * квартира
      *
-     * @var string $apartment
+     * @property string $apartment
      */
     private $apartment = null;
 

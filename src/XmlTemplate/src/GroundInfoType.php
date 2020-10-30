@@ -14,28 +14,28 @@ class GroundInfoType
     /**
      * НаимОсн - Наименование документа-основания
      *
-     * @var string $name
+     * @property string $name
      */
     private $name = null;
 
     /**
      * НомОсн - Номер документа-основания
      *
-     * @var string $number
+     * @property string $number
      */
     private $number = null;
 
     /**
      * ДатаОсн - Дата документа-основания
      *
-     * @var string $date
+     * @property string $date
      */
     private $date = null;
 
     /**
      * ДопСвОсн - Дополнительные сведения документа-основания
      *
-     * @var string $info
+     * @property string $info
      */
     private $info = null;
 

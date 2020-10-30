@@ -12,17 +12,17 @@ class AddressType
 {
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\RussianAddressType $russianAddress
+     * @property \AgentSIB\Diadoc\XmlTemplate\RussianAddressType $russianAddress
      */
     private $russianAddress = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ForeignAddressType $foreignAddress
+     * @property \AgentSIB\Diadoc\XmlTemplate\ForeignAddressType $foreignAddress
      */
     private $foreignAddress = null;
 
     /**
-     * @var string $addressCode
+     * @property string $addressCode
      */
     private $addressCode = null;
 

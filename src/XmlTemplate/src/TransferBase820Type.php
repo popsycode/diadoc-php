@@ -14,7 +14,7 @@ class TransferBase820Type extends TransferBaseType
     /**
      * ИдентОсн - Идентификатор документа – основания
      *
-     * @var string $baseDocumentId
+     * @property string $baseDocumentId
      */
     private $baseDocumentId = null;
 

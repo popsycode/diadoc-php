@@ -14,21 +14,21 @@ class AcceptanceCertificateSignatureInfoType
     /**
      * дата подписи акта исполнителем / заказчиком
      *
-     * @var string $signatureDate
+     * @property string $signatureDate
      */
     private $signatureDate = null;
 
     /**
      * лицо, подписывающее со стороны исполнителя / заказчика
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\OfficialType $official
+     * @property \AgentSIB\Diadoc\XmlTemplate\OfficialType $official
      */
     private $official = null;
 
     /**
      * сведения о доверенности подписывающего со стороны исполнителя / заказчика
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AttorneyType $attorney
+     * @property \AgentSIB\Diadoc\XmlTemplate\AttorneyType $attorney
      */
     private $attorney = null;
 

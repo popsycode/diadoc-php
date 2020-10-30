@@ -12,22 +12,22 @@ class OfficialType
 {
 
     /**
-     * @var string $lastName
+     * @property string $lastName
      */
     private $lastName = null;
 
     /**
-     * @var string $firstName
+     * @property string $firstName
      */
     private $firstName = null;
 
     /**
-     * @var string $middleName
+     * @property string $middleName
      */
     private $middleName = null;
 
     /**
-     * @var string $position
+     * @property string $position
      */
     private $position = null;
 

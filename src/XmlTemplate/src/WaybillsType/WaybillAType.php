@@ -11,14 +11,14 @@ class WaybillAType
     /**
      * НомерТранНакл - Номер транспортной накладной
      *
-     * @var string $transferDocumentNumber
+     * @property string $transferDocumentNumber
      */
     private $transferDocumentNumber = null;
 
     /**
      * ДатаТранНакл - Дата транспортной накладной
      *
-     * @var string $transferDocumentDate
+     * @property string $transferDocumentDate
      */
     private $transferDocumentDate = null;
 

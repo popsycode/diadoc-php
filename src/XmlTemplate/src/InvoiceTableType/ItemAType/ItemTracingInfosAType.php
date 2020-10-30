@@ -12,11 +12,11 @@ class ItemTracingInfosAType
      * СведПрослеж - Сведения о товаре, подлежащем
      *  прослеживаемости
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType[] $itemTracingInfo
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType\ItemTracingInfosAType\ItemTracingInfoAType[] $itemTracingInfo
      */
-    private $itemTracingInfo = [
+    private $itemTracingInfo = array(
         
-    ];
+    );
 
     /**
      * Adds as itemTracingInfo
@@ -39,8 +39,8 @@ class ItemTracingInfosAType
      * СведПрослеж - Сведения о товаре, подлежащем
      *  прослеживаемости
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetItemTracingInfo($index)
     {
@@ -53,7 +53,7 @@ class ItemTracingInfosAType
      * СведПрослеж - Сведения о товаре, подлежащем
      *  прослеживаемости
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetItemTracingInfo($index)

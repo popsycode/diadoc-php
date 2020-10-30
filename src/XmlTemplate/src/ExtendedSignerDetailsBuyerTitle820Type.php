@@ -17,7 +17,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  2 - лицо, совершившее сделку, операцию и ответственное за ее оформление
      *  3 - лицо, ответственное за оформление свершившегося события
      *
-     * @var int $signerPowers
+     * @property integer $signerPowers
      */
     private $signerPowers = null;
 
@@ -28,7 +28,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @var int $signerStatus
+     * @property integer $signerStatus
      */
     private $signerStatus = null;
 
@@ -40,7 +40,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  2 - лицо, совершившее сделку, операцию и ответственное за ее оформление
      *  3 - лицо, ответственное за оформление свершившегося события
      *
-     * @return int
+     * @return integer
      */
     public function getSignerPowers()
     {
@@ -55,7 +55,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  2 - лицо, совершившее сделку, операцию и ответственное за ее оформление
      *  3 - лицо, ответственное за оформление свершившегося события
      *
-     * @param int $signerPowers
+     * @param integer $signerPowers
      * @return self
      */
     public function setSignerPowers($signerPowers)
@@ -73,7 +73,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @return int
+     * @return integer
      */
     public function getSignerStatus()
     {
@@ -89,7 +89,7 @@ class ExtendedSignerDetailsBuyerTitle820Type extends ExtendedSignerDetailsBaseTy
      *  5 - работник организации – покупателя;
      *  6 - работник организации – составителя файла обмена информации покупателя, если составитель файла обмена информации покупателя не является покупателем.
      *
-     * @param int $signerStatus
+     * @param integer $signerStatus
      * @return self
      */
     public function setSignerStatus($signerStatus)

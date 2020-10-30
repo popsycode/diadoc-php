@@ -14,7 +14,7 @@ class CorrectableInvoiceItemFieldsWithTwentyPercentAndTaxedByAgentType extends C
     /**
      * ставка налога
      *
-     * @var string $taxRate
+     * @property string $taxRate
      */
     private $taxRate = null;
 

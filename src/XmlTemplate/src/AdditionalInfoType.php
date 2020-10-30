@@ -14,14 +14,14 @@ class AdditionalInfoType
     /**
      * Идентиф - идентификатор (наименование)
      *
-     * @var string $id
+     * @property string $id
      */
     private $id = null;
 
     /**
      * Значен - значение
      *
-     * @var string $value
+     * @property string $value
      */
     private $value = null;
 

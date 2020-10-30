@@ -11,11 +11,11 @@ class BuyersAType
     /**
      * СвПокуп - сведения о покупателе
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $buyer
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $buyer
      */
-    private $buyer = [
+    private $buyer = array(
         
-    ];
+    );
 
     /**
      * Adds as buyer
@@ -36,8 +36,8 @@ class BuyersAType
      *
      * СвПокуп - сведения о покупателе
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetBuyer($index)
     {
@@ -49,7 +49,7 @@ class BuyersAType
      *
      * СвПокуп - сведения о покупателе
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetBuyer($index)

@@ -11,11 +11,11 @@ class TransferBasesAType
     /**
      * ОснПер - Основание отгрузки
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type[] $transferBase
+     * @property \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type[] $transferBase
      */
-    private $transferBase = [
+    private $transferBase = array(
         
-    ];
+    );
 
     /**
      * Adds as transferBase
@@ -36,8 +36,8 @@ class TransferBasesAType
      *
      * ОснПер - Основание отгрузки
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetTransferBase($index)
     {
@@ -49,7 +49,7 @@ class TransferBasesAType
      *
      * ОснПер - Основание отгрузки
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetTransferBase($index)

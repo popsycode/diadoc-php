@@ -11,35 +11,35 @@ class SellerInfoCircumPublicProcAType
     /**
      * ДатаГосКонт - Дата государственного контракта
      *
-     * @var string $dateStateContract
+     * @property string $dateStateContract
      */
     private $dateStateContract = null;
 
     /**
      * НомерГосКонт - Номер государственного контракта
      *
-     * @var string $numberStateContract
+     * @property string $numberStateContract
      */
     private $numberStateContract = null;
 
     /**
      * ЛицСчетПрод - Номер лицевого счета продавца
      *
-     * @var string $personalAccountSeller
+     * @property string $personalAccountSeller
      */
     private $personalAccountSeller = null;
 
     /**
      * КодПродБюджКласс - Код бюджетной классификации продавца
      *
-     * @var string $sellerBudjetClassCode
+     * @property string $sellerBudjetClassCode
      */
     private $sellerBudjetClassCode = null;
 
     /**
      * КодЦелиПрод - Код цели продавца
      *
-     * @var string $sellerTargetCode
+     * @property string $sellerTargetCode
      */
     private $sellerTargetCode = null;
 
@@ -47,7 +47,7 @@ class SellerInfoCircumPublicProcAType
      * КодКазначПрод - Код территориального органа Федерального казначейства
      *  продавца
      *
-     * @var string $sellerTreasuryCode
+     * @property string $sellerTreasuryCode
      */
     private $sellerTreasuryCode = null;
 
@@ -55,7 +55,7 @@ class SellerInfoCircumPublicProcAType
      * НаимКазначПрод - Наименование территориального органа Федерального
      *  казначейства продавца
      *
-     * @var string $sellerTreasuryName
+     * @property string $sellerTreasuryName
      */
     private $sellerTreasuryName = null;
 

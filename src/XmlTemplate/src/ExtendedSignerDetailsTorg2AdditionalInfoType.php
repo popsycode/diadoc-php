@@ -18,7 +18,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  23 - лицо, в полномочия которого входит согласование документа, оформляющего событие (факт хозяйственной жизни)
      *  29 - лицо с иными полномочиями
      *
-     * @var int $signerPowers
+     * @property integer $signerPowers
      */
     private $signerPowers = null;
 
@@ -30,7 +30,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  5 - работник организации-покупателя
      *  6 - работник организации - составителя файла обмена информации покупателя
      *
-     * @var int $signerStatus
+     * @property integer $signerStatus
      */
     private $signerStatus = null;
 
@@ -43,7 +43,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  23 - лицо, в полномочия которого входит согласование документа, оформляющего событие (факт хозяйственной жизни)
      *  29 - лицо с иными полномочиями
      *
-     * @return int
+     * @return integer
      */
     public function getSignerPowers()
     {
@@ -59,7 +59,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  23 - лицо, в полномочия которого входит согласование документа, оформляющего событие (факт хозяйственной жизни)
      *  29 - лицо с иными полномочиями
      *
-     * @param int $signerPowers
+     * @param integer $signerPowers
      * @return self
      */
     public function setSignerPowers($signerPowers)
@@ -78,7 +78,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  5 - работник организации-покупателя
      *  6 - работник организации - составителя файла обмена информации покупателя
      *
-     * @return int
+     * @return integer
      */
     public function getSignerStatus()
     {
@@ -95,7 +95,7 @@ class ExtendedSignerDetailsTorg2AdditionalInfoType extends ExtendedSignerDetails
      *  5 - работник организации-покупателя
      *  6 - работник организации - составителя файла обмена информации покупателя
      *
-     * @param int $signerStatus
+     * @param integer $signerStatus
      * @return self
      */
     public function setSignerStatus($signerStatus)

@@ -14,7 +14,7 @@ class CorrectableInvoiceItemFieldsType extends CorrectableInvoiceItemFieldsWitho
     /**
      * ставка налога
      *
-     * @var string $taxRate
+     * @property string $taxRate
      */
     private $taxRate = null;
 

@@ -15,7 +15,7 @@ class ExtendedSignerDetailsCorrectionBuyerTitleType extends ExtendedSignerDetail
      * ОблПолн - Область полномочий
      *  3 – лицо, ответственное за оформление свершившегося события;
      *
-     * @var int $signerPowers
+     * @property integer $signerPowers
      */
     private $signerPowers = null;
 
@@ -25,7 +25,7 @@ class ExtendedSignerDetailsCorrectionBuyerTitleType extends ExtendedSignerDetail
      * ОблПолн - Область полномочий
      *  3 – лицо, ответственное за оформление свершившегося события;
      *
-     * @return int
+     * @return integer
      */
     public function getSignerPowers()
     {
@@ -38,7 +38,7 @@ class ExtendedSignerDetailsCorrectionBuyerTitleType extends ExtendedSignerDetail
      * ОблПолн - Область полномочий
      *  3 – лицо, ответственное за оформление свершившегося события;
      *
-     * @param int $signerPowers
+     * @param integer $signerPowers
      * @return self
      */
     public function setSignerPowers($signerPowers)

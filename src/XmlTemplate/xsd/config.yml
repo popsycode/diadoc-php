@@ -7,11 +7,11 @@ xsd2php:
   namespaces:
     '': 'AgentSIB\Diadoc\XmlTemplate'
   destinations_php:
-    'AgentSIB\Diadoc\XmlTemplate': libs\diadoc\src
+    'AgentSIB\Diadoc\XmlTemplate': src\XmlTemplate\src
   #    'TestNs\MyApp': soap\src  #  on Windows
 
   destinations_jms:
-    'AgentSIB\Diadoc\XmlTemplate': libs\diadoc\metadata
+    'AgentSIB\Diadoc\XmlTemplate': src\XmlTemplate\metadata
     #    'TestNs\MyApp': soap\metadata  #  on Windows
 
     #  Uncomment this section if you want to have also symfony/validator metadata to be generated from XSD

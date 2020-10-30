@@ -14,18 +14,18 @@ class AdditionalInfoIdType
     /**
      * ИдФайлИнфПол (GUID) - идентификатор файла информационного поля
      *
-     * @var string $infoFileId
+     * @property string $infoFileId
      */
     private $infoFileId = null;
 
     /**
      * ТекстИнф - текстовая информация
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfo
+     * @property \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfo
      */
-    private $additionalInfo = [
+    private $additionalInfo = array(
         
-    ];
+    );
 
     /**
      * Gets as infoFileId
@@ -72,8 +72,8 @@ class AdditionalInfoIdType
      *
      * ТекстИнф - текстовая информация
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetAdditionalInfo($index)
     {
@@ -85,7 +85,7 @@ class AdditionalInfoIdType
      *
      * ТекстИнф - текстовая информация
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetAdditionalInfo($index)

@@ -9,15 +9,6 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsManualFillingType:
                 setter: setOrgType
             xml_attribute: true
             type: string
-        okopf:
-            expose: true
-            access_type: public_method
-            serialized_name: Okopf
-            accessor:
-                getter: getOkopf
-                setter: setOkopf
-            xml_attribute: true
-            type: \AnyType
         okpo:
             expose: true
             access_type: public_method
@@ -25,15 +16,6 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsManualFillingType:
             accessor:
                 getter: getOkpo
                 setter: setOkpo
-            xml_attribute: true
-            type: string
-        okdp:
-            expose: true
-            access_type: public_method
-            serialized_name: Okdp
-            accessor:
-                getter: getOkdp
-                setter: setOkdp
             xml_attribute: true
             type: string
         phone:
@@ -99,15 +81,6 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsManualFillingType:
                 setter: setDepartment
             xml_attribute: true
             type: string
-        organizationAdditionalInfo:
-            expose: true
-            access_type: public_method
-            serialized_name: OrganizationAdditionalInfo
-            accessor:
-                getter: getOrganizationAdditionalInfo
-                setter: setOrganizationAdditionalInfo
-            xml_attribute: true
-            type: string
         organizationOrPersonInfo:
             expose: true
             access_type: public_method
@@ -124,32 +97,5 @@ AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsManualFillingType:
             accessor:
                 getter: getIndividualEntityRegistrationCertificate
                 setter: setIndividualEntityRegistrationCertificate
-            xml_attribute: true
-            type: string
-        legalEntityId:
-            expose: true
-            access_type: public_method
-            serialized_name: LegalEntityId
-            accessor:
-                getter: getLegalEntityId
-                setter: setLegalEntityId
-            xml_attribute: true
-            type: string
-        shortOrgName:
-            expose: true
-            access_type: public_method
-            serialized_name: ShortOrgName
-            accessor:
-                getter: getShortOrgName
-                setter: setShortOrgName
-            xml_attribute: true
-            type: string
-        country:
-            expose: true
-            access_type: public_method
-            serialized_name: Country
-            accessor:
-                getter: getCountry
-                setter: setCountry
             xml_attribute: true
             type: string

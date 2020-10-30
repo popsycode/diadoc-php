@@ -11,11 +11,11 @@ class ShippersAType
     /**
      * ГрузОт - грузоотправитель
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType[] $shipper
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType[] $shipper
      */
-    private $shipper = [
+    private $shipper = array(
         
-    ];
+    );
 
     /**
      * Adds as shipper
@@ -36,8 +36,8 @@ class ShippersAType
      *
      * ГрузОт - грузоотправитель
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetShipper($index)
     {
@@ -49,7 +49,7 @@ class ShippersAType
      *
      * ГрузОт - грузоотправитель
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetShipper($index)

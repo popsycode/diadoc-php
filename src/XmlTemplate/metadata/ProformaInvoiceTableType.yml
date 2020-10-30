@@ -1,0 +1,48 @@
+AgentSIB\Diadoc\XmlTemplate\ProformaInvoiceTableType:
+    properties:
+        totalWithVatExcluded:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalWithVatExcluded
+            accessor:
+                getter: getTotalWithVatExcluded
+                setter: setTotalWithVatExcluded
+            xml_attribute: true
+            type: float
+        total:
+            expose: true
+            access_type: public_method
+            serialized_name: Total
+            accessor:
+                getter: getTotal
+                setter: setTotal
+            xml_attribute: true
+            type: float
+        grandTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: GrandTotal
+            accessor:
+                getter: getGrandTotal
+                setter: setGrandTotal
+            xml_attribute: true
+            type: float
+        proformaInvoiceItem:
+            expose: true
+            access_type: public_method
+            serialized_name: ProformaInvoiceItem
+            accessor:
+                getter: getProformaInvoiceItem
+                setter: setProformaInvoiceItem
+            xml_list:
+                inline: true
+                entry_name: ProformaInvoiceItem
+            type: array<AgentSIB\Diadoc\XmlTemplate\ProformaInvoiceItemType>
+        vatTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: VatTotal
+            accessor:
+                getter: getVatTotal
+                setter: setVatTotal
+            type: AgentSIB\Diadoc\XmlTemplate\VatType

@@ -12,7 +12,7 @@ class ItemTracingInfoAType
      * НомТовПрослеж - Регистрационный номер партии
      *  товара
      *
-     * @var string $regNumberUnit
+     * @property string $regNumberUnit
      */
     private $regNumberUnit = null;
 
@@ -20,7 +20,7 @@ class ItemTracingInfoAType
      * ЕдИзмПрослеж - Единица количественного учета
      *  товара, используемая в целях осуществления прослеживаемости
      *
-     * @var string $unit
+     * @property string $unit
      */
     private $unit = null;
 
@@ -28,7 +28,7 @@ class ItemTracingInfoAType
      * КолВЕдПрослеж - Количество товара в единицах
      *  измерения прослеживаемого товара
      *
-     * @var float $quantity
+     * @property float $quantity
      */
     private $quantity = null;
 
@@ -36,7 +36,7 @@ class ItemTracingInfoAType
      * ДопПрослеж - Дополнительный показатель для
      *  идентификации товаров, подлежащих прослеживаемости
      *
-     * @var string $itemAddInfo
+     * @property string $itemAddInfo
      */
     private $itemAddInfo = null;
 

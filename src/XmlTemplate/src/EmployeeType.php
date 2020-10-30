@@ -14,36 +14,36 @@ class EmployeeType
     /**
      * Должность
      *
-     * @var string $position
+     * @property string $position
      */
     private $position = null;
 
     /**
      * ИныеСвед - Иные сведения, идентифицирующие физическое лицо
      *
-     * @var string $employeeInfo
+     * @property string $employeeInfo
      */
     private $employeeInfo = null;
 
     /**
      * ОснПолн - Основание полномочий предстваителя
      *
-     * @var string $employeeBase
+     * @property string $employeeBase
      */
     private $employeeBase = null;
 
     /**
-     * @var string $lastName
+     * @property string $lastName
      */
     private $lastName = null;
 
     /**
-     * @var string $firstName
+     * @property string $firstName
      */
     private $firstName = null;
 
     /**
-     * @var string $middleName
+     * @property string $middleName
      */
     private $middleName = null;
 

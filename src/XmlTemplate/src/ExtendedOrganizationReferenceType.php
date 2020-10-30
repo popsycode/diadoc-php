@@ -12,7 +12,7 @@ class ExtendedOrganizationReferenceType extends ExtendedOrganizationDetailsManua
 {
 
     /**
-     * @var string $boxId
+     * @property string $boxId
      */
     private $boxId = null;
 

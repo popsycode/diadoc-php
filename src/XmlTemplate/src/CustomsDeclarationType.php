@@ -16,14 +16,14 @@ class CustomsDeclarationType
      *  980 - Евросоюз,
      *  981 - ЕАЭС
      *
-     * @var string $country
+     * @property string $country
      */
     private $country = null;
 
     /**
      * Номер таможенной декларации
      *
-     * @var string $declarationNumber
+     * @property string $declarationNumber
      */
     private $declarationNumber = null;
 

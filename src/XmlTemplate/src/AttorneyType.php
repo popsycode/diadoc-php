@@ -14,49 +14,49 @@ class AttorneyType
     /**
      * Дата выдачи доверенности
      *
-     * @var string $date
+     * @property string $date
      */
     private $date = null;
 
     /**
      * Номер доверенности
      *
-     * @var string $number
+     * @property string $number
      */
     private $number = null;
 
     /**
      * Организация, представитель которой выдал доверенность
      *
-     * @var string $issuerOrganizationName
+     * @property string $issuerOrganizationName
      */
     private $issuerOrganizationName = null;
 
     /**
      * Дополнительная информация о выдавшем доверенность
      *
-     * @var string $issuerAdditionalInfo
+     * @property string $issuerAdditionalInfo
      */
     private $issuerAdditionalInfo = null;
 
     /**
      * Дополнительная информация о получившем доверенность
      *
-     * @var string $recipientAdditionalInfo
+     * @property string $recipientAdditionalInfo
      */
     private $recipientAdditionalInfo = null;
 
     /**
      * Лицо, выдавшее доверенность
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\OfficialType $issuerPerson
+     * @property \AgentSIB\Diadoc\XmlTemplate\OfficialType $issuerPerson
      */
     private $issuerPerson = null;
 
     /**
      * Лицо, получившее доверенность
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\OfficialType $recipientPerson
+     * @property \AgentSIB\Diadoc\XmlTemplate\OfficialType $recipientPerson
      */
     private $recipientPerson = null;
 

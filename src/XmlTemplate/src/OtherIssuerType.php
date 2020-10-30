@@ -14,50 +14,50 @@ class OtherIssuerType
     /**
      * Должность представителя организацииЕсли заполнено - формируется структура "ПредОргПер".Если не заполнено – формируется структура "ФЛПер".
      *
-     * @var string $position
+     * @property string $position
      */
     private $position = null;
 
     /**
      * ИныеСвед - Иные сведения, идентифицирующие физическое лицо
      *
-     * @var string $employeeInfo
+     * @property string $employeeInfo
      */
     private $employeeInfo = null;
 
     /**
      * ОснПолнПредПер (ОснДоверФЛ) - Основание полномочий представителя
      *
-     * @var string $employeeBase
+     * @property string $employeeBase
      */
     private $employeeBase = null;
 
     /**
      * НаимОргПер - Наименование организации, которой доверена передача
      *
-     * @var string $organizationName
+     * @property string $organizationName
      */
     private $organizationName = null;
 
     /**
      * ОснДоверОргПер - Основание, по которому организации доверена передача
      *
-     * @var string $organizationBase
+     * @property string $organizationBase
      */
     private $organizationBase = null;
 
     /**
-     * @var string $lastName
+     * @property string $lastName
      */
     private $lastName = null;
 
     /**
-     * @var string $firstName
+     * @property string $firstName
      */
     private $firstName = null;
 
     /**
-     * @var string $middleName
+     * @property string $middleName
      */
     private $middleName = null;
 

@@ -12,12 +12,12 @@ class ExtendedOrganizationInfoType
 {
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsType $organizationDetails
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsType $organizationDetails
      */
     private $organizationDetails = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationReferenceType $organizationReference
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationReferenceType $organizationReference
      */
     private $organizationReference = null;
 

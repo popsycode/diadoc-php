@@ -12,11 +12,11 @@ class CustomsDeclarationsAType
      * Цифровой код страны происхождения товара (Графа 10
      *  счета-фактуры)
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType[] $customsDeclaration
+     * @property \AgentSIB\Diadoc\XmlTemplate\CustomsDeclarationType[] $customsDeclaration
      */
-    private $customsDeclaration = [
+    private $customsDeclaration = array(
         
-    ];
+    );
 
     /**
      * Adds as customsDeclaration
@@ -39,8 +39,8 @@ class CustomsDeclarationsAType
      * Цифровой код страны происхождения товара (Графа 10
      *  счета-фактуры)
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetCustomsDeclaration($index)
     {
@@ -53,7 +53,7 @@ class CustomsDeclarationsAType
      * Цифровой код страны происхождения товара (Графа 10
      *  счета-фактуры)
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetCustomsDeclaration($index)

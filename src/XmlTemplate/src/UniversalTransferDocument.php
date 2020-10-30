@@ -11,7 +11,7 @@ class UniversalTransferDocument
     /**
      * Функция - Функция документа
      *
-     * @var string $function
+     * @property string $function
      */
     private $function = null;
 
@@ -19,42 +19,42 @@ class UniversalTransferDocument
      * СоглСтрДопИнф - Информация о наличии согласованной структуры дополнительных
      *  информационных полей
      *
-     * @var string $approvedStructureAdditionalInfoFields
+     * @property string $approvedStructureAdditionalInfoFields
      */
     private $approvedStructureAdditionalInfoFields = null;
 
     /**
      * НаимДокОпр - Наименование первичного документа, определенное организацией
      *
-     * @var string $documentName
+     * @property string $documentName
      */
     private $documentName = null;
 
     /**
      * ДатаСчФ - дата УПД
      *
-     * @var string $documentDate
+     * @property string $documentDate
      */
     private $documentDate = null;
 
     /**
      * НомерСчФ - номер УПД
      *
-     * @var string $documentNumber
+     * @property string $documentNumber
      */
     private $documentNumber = null;
 
     /**
      * КодОКВ - валюта (код)
      *
-     * @var string $currency
+     * @property string $currency
      */
     private $currency = null;
 
     /**
      * КурсВал - Курс валюты
      *
-     * @var float $currencyRate
+     * @property float $currencyRate
      */
     private $currencyRate = null;
 
@@ -62,7 +62,7 @@ class UniversalTransferDocument
      * ДатаИспрСчФ - дата ИСФ (обязательно при формировании
      *  UniversalTransferDocumentSellerTitleRevision)
      *
-     * @var string $revisionDate
+     * @property string $revisionDate
      */
     private $revisionDate = null;
 
@@ -70,14 +70,14 @@ class UniversalTransferDocument
      * НомИспрСчФ - номер ИСФ (обязательно при формировании
      *  UniversalTransferDocumentSellerTitleRevision)
      *
-     * @var int $revisionNumber
+     * @property integer $revisionNumber
      */
     private $revisionNumber = null;
 
     /**
      * НаимЭконСубСост - Составитель файла обмена счета-фактуры (информации продавца)
      *
-     * @var string $documentCreator
+     * @property string $documentCreator
      */
     private $documentCreator = null;
 
@@ -85,14 +85,14 @@ class UniversalTransferDocument
      * ОснДоверОргСост - Основание, по которому экономический субъект является
      *  составителем файла обмена счета-фактуры
      *
-     * @var string $documentCreatorBase
+     * @property string $documentCreatorBase
      */
     private $documentCreatorBase = null;
 
     /**
      * ИдГосКон
      *
-     * @var string $governmentContractInfo
+     * @property string $governmentContractInfo
      */
     private $governmentContractInfo = null;
 
@@ -102,68 +102,68 @@ class UniversalTransferDocument
      *  2 - счет-фактура, выставляемый при получении оплаты;
      *  3 - счет-фактура, применяемый в случае реализации комиссионером
      *
-     * @var string $circumFormatInvoice
+     * @property string $circumFormatInvoice
      */
     private $circumFormatInvoice = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $sellers
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $sellers
      */
     private $sellers = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $buyers
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $buyers
      */
     private $buyers = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType[] $shippers
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\ShippersAType\ShipperAType[] $shippers
      */
     private $shippers = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $consignees
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType[] $consignees
      */
     private $consignees = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SignersAType $signers
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SignersAType $signers
      */
     private $signers = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType[] $paymentDocuments
+     * @property \AgentSIB\Diadoc\XmlTemplate\PaymentDocumentInfoType[] $paymentDocuments
      */
     private $paymentDocuments = null;
 
     /**
      * ИнфПолФХЖ1 - Информационное поле документа
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType $additionalInfoId
+     * @property \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoIdType $additionalInfoId
      */
     private $additionalInfoId = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType $table
+     * @property \AgentSIB\Diadoc\XmlTemplate\InvoiceTableType $table
      */
     private $table = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\TransferInfoType $transferInfo
+     * @property \AgentSIB\Diadoc\XmlTemplate\TransferInfoType $transferInfo
      */
     private $transferInfo = null;
 
     /**
      * СвФактор - Сведения о факторе
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType $factorInfo
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationInfoType $factorInfo
      */
     private $factorInfo = null;
 
     /**
      * ОснУстДенТреб - Основание уступки денежного требования
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type $mainAssignMonetaryClaim
+     * @property \AgentSIB\Diadoc\XmlTemplate\TransferBase820Type $mainAssignMonetaryClaim
      */
     private $mainAssignMonetaryClaim = null;
 
@@ -171,12 +171,12 @@ class UniversalTransferDocument
      * ИнфПродГосЗакКазн - Информация продавца об обстоятельствах закупок для
      *  государственных и муниципальных нужд
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SellerInfoCircumPublicProcAType $sellerInfoCircumPublicProc
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\SellerInfoCircumPublicProcAType $sellerInfoCircumPublicProc
      */
     private $sellerInfoCircumPublicProc = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType[] $documentShipments
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType[] $documentShipments
      */
     private $documentShipments = null;
 
@@ -398,7 +398,7 @@ class UniversalTransferDocument
      * НомИспрСчФ - номер ИСФ (обязательно при формировании
      *  UniversalTransferDocumentSellerTitleRevision)
      *
-     * @return int
+     * @return integer
      */
     public function getRevisionNumber()
     {
@@ -411,7 +411,7 @@ class UniversalTransferDocument
      * НомИспрСчФ - номер ИСФ (обязательно при формировании
      *  UniversalTransferDocumentSellerTitleRevision)
      *
-     * @param int $revisionNumber
+     * @param integer $revisionNumber
      * @return self
      */
     public function setRevisionNumber($revisionNumber)
@@ -547,8 +547,8 @@ class UniversalTransferDocument
     /**
      * isset sellers
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetSellers($index)
     {
@@ -558,7 +558,7 @@ class UniversalTransferDocument
     /**
      * unset sellers
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetSellers($index)
@@ -603,8 +603,8 @@ class UniversalTransferDocument
     /**
      * isset buyers
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetBuyers($index)
     {
@@ -614,7 +614,7 @@ class UniversalTransferDocument
     /**
      * unset buyers
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetBuyers($index)
@@ -659,8 +659,8 @@ class UniversalTransferDocument
     /**
      * isset shippers
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetShippers($index)
     {
@@ -670,7 +670,7 @@ class UniversalTransferDocument
     /**
      * unset shippers
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetShippers($index)
@@ -715,8 +715,8 @@ class UniversalTransferDocument
     /**
      * isset consignees
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetConsignees($index)
     {
@@ -726,7 +726,7 @@ class UniversalTransferDocument
     /**
      * unset consignees
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetConsignees($index)
@@ -793,8 +793,8 @@ class UniversalTransferDocument
     /**
      * isset paymentDocuments
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetPaymentDocuments($index)
     {
@@ -804,7 +804,7 @@ class UniversalTransferDocument
     /**
      * unset paymentDocuments
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetPaymentDocuments($index)
@@ -999,8 +999,8 @@ class UniversalTransferDocument
     /**
      * isset documentShipments
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetDocumentShipments($index)
     {
@@ -1010,7 +1010,7 @@ class UniversalTransferDocument
     /**
      * unset documentShipments
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetDocumentShipments($index)

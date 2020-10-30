@@ -14,14 +14,14 @@ class ForeignAddressType
     /**
      * страна (код)
      *
-     * @var string $country
+     * @property string $country
      */
     private $country = null;
 
     /**
      * текст адреса
      *
-     * @var string $address
+     * @property string $address
      */
     private $address = null;
 

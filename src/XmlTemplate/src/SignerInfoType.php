@@ -12,12 +12,12 @@ class SignerInfoType
 {
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\SignerDetailsType $signerDetails
+     * @property \AgentSIB\Diadoc\XmlTemplate\SignerDetailsType $signerDetails
      */
     private $signerDetails = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\SignerReferenceInfoType $signerReference
+     * @property \AgentSIB\Diadoc\XmlTemplate\SignerReferenceInfoType $signerReference
      */
     private $signerReference = null;
 

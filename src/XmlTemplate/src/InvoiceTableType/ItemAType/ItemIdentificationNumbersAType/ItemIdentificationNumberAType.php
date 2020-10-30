@@ -12,29 +12,29 @@ class ItemIdentificationNumberAType
      * ИдентТрансУпак - Уникальный идентификатор
      *  транспортной упаковки
      *
-     * @var string $transPackageId
+     * @property string $transPackageId
      */
     private $transPackageId = null;
 
     /**
      * КИЗ - Контрольный идентификационный знак
      *
-     * @var string[] $unit
+     * @property string[] $unit
      */
-    private $unit = [
+    private $unit = array(
         
-    ];
+    );
 
     /**
      * НомУпак - Уникальный идентификатор вторичной
      *  (потребительской)/третичной (заводской, транспортной)
      *  упаковки
      *
-     * @var string[] $packageId
+     * @property string[] $packageId
      */
-    private $packageId = [
+    private $packageId = array(
         
-    ];
+    );
 
     /**
      * Gets as transPackageId
@@ -83,8 +83,8 @@ class ItemIdentificationNumberAType
      *
      * КИЗ - Контрольный идентификационный знак
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetUnit($index)
     {
@@ -96,7 +96,7 @@ class ItemIdentificationNumberAType
      *
      * КИЗ - Контрольный идентификационный знак
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetUnit($index)
@@ -153,8 +153,8 @@ class ItemIdentificationNumberAType
      *  (потребительской)/третичной (заводской, транспортной)
      *  упаковки
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetPackageId($index)
     {
@@ -168,7 +168,7 @@ class ItemIdentificationNumberAType
      *  (потребительской)/третичной (заводской, транспортной)
      *  упаковки
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetPackageId($index)

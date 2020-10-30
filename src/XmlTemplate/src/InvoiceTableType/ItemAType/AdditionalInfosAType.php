@@ -11,11 +11,11 @@ class AdditionalInfosAType
     /**
      * Информационное поле факта хозяйственной жизни 1
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfo
+     * @property \AgentSIB\Diadoc\XmlTemplate\AdditionalInfoType[] $additionalInfo
      */
-    private $additionalInfo = [
+    private $additionalInfo = array(
         
-    ];
+    );
 
     /**
      * Adds as additionalInfo
@@ -36,8 +36,8 @@ class AdditionalInfosAType
      *
      * Информационное поле факта хозяйственной жизни 1
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetAdditionalInfo($index)
     {
@@ -49,7 +49,7 @@ class AdditionalInfosAType
      *
      * Информационное поле факта хозяйственной жизни 1
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetAdditionalInfo($index)

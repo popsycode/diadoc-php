@@ -14,21 +14,21 @@ class SignerReferenceType
     /**
      * Идентификатор ящика подписанта для заполнения SignerDetails
      *
-     * @var string $boxId
+     * @property string $boxId
      */
     private $boxId = null;
 
     /**
      * X.509 сертификат подписанта (DER-кодировка) в формате BASE64Одно из полей CertificateBytes или CertificateThumbprint обязательно для заполнения
      *
-     * @var mixed $certificateBytes
+     * @property mixed $certificateBytes
      */
     private $certificateBytes = null;
 
     /**
      * Отпечаток сертификата подписантаОдно из полей CertificateBytes или CertificateThumbprint обязательно для заполнения
      *
-     * @var string $certificateThumbprint
+     * @property string $certificateThumbprint
      */
     private $certificateThumbprint = null;
 

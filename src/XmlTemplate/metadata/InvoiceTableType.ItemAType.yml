@@ -107,7 +107,7 @@ AgentSIB\Diadoc\XmlTemplate\InvoiceTableType\ItemAType:
                 getter: getItemMark
                 setter: setItemMark
             xml_attribute: true
-            type: int
+            type: integer
         additionalProperty:
             expose: true
             access_type: public_method

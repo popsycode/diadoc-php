@@ -12,11 +12,11 @@ class DocumentShipmentsAType
      * ДокПодтвОтгр - Реквизиты документа, подтверждающего отгрузку
      *  товаров
      *
-     * @var \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType[] $documentShipment
+     * @property \AgentSIB\Diadoc\XmlTemplate\UniversalTransferDocument\DocumentShipmentsAType\DocumentShipmentAType[] $documentShipment
      */
-    private $documentShipment = [
+    private $documentShipment = array(
         
-    ];
+    );
 
     /**
      * Adds as documentShipment
@@ -39,8 +39,8 @@ class DocumentShipmentsAType
      * ДокПодтвОтгр - Реквизиты документа, подтверждающего отгрузку
      *  товаров
      *
-     * @param int|string $index
-     * @return bool
+     * @param scalar $index
+     * @return boolean
      */
     public function issetDocumentShipment($index)
     {
@@ -53,7 +53,7 @@ class DocumentShipmentsAType
      * ДокПодтвОтгр - Реквизиты документа, подтверждающего отгрузку
      *  товаров
      *
-     * @param int|string $index
+     * @param scalar $index
      * @return void
      */
     public function unsetDocumentShipment($index)

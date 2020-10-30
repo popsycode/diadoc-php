@@ -12,38 +12,38 @@ class ExtendedSignerDetailsBaseType
 {
 
     /**
-     * @var string $lastName
+     * @property string $lastName
      */
     private $lastName = null;
 
     /**
-     * @var string $firstName
+     * @property string $firstName
      */
     private $firstName = null;
 
     /**
-     * @var string $middleName
+     * @property string $middleName
      */
     private $middleName = null;
 
     /**
      * Должность
      *
-     * @var string $position
+     * @property string $position
      */
     private $position = null;
 
     /**
      * ИННОбязательно для SignerType=1 (ЮЛ) и SignerType=2 (ИП)Опционально для SignerType=3 (ФЛ)
      *
-     * @var string $inn
+     * @property string $inn
      */
     private $inn = null;
 
     /**
      * СвГосРегИП - Реквизиты свидетельства о государственной регистрации индивидуального предпринимателя
      *
-     * @var string $registrationCertificate
+     * @property string $registrationCertificate
      */
     private $registrationCertificate = null;
 
@@ -52,35 +52,35 @@ class ExtendedSignerDetailsBaseType
      *  2 - Индивидуальный предприниматель (ИП)
      *  3 - Физическое лицо (ФЛ)
      *
-     * @var string $signerType
+     * @property string $signerType
      */
     private $signerType = null;
 
     /**
      * НаимОрг
      *
-     * @var string $signerOrganizationName
+     * @property string $signerOrganizationName
      */
     private $signerOrganizationName = null;
 
     /**
      * ИныеСвед - Иные сведения, идентифицирующие физическое лицо
      *
-     * @var string $signerInfo
+     * @property string $signerInfo
      */
     private $signerInfo = null;
 
     /**
      * ОснПолн - Основание полномочий (доверия)
      *
-     * @var string $signerPowersBase
+     * @property string $signerPowersBase
      */
     private $signerPowersBase = null;
 
     /**
      * ОснПолнОрг - Основание полномочий (доверия) организации
      *
-     * @var string $signerOrgPowersBase
+     * @property string $signerOrgPowersBase
      */
     private $signerOrgPowersBase = null;
 

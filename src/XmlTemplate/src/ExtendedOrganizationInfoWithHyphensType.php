@@ -12,12 +12,12 @@ class ExtendedOrganizationInfoWithHyphensType
 {
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsWithHyphensType $organizationDetails
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationDetailsWithHyphensType $organizationDetails
      */
     private $organizationDetails = null;
 
     /**
-     * @var \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationReferenceType $organizationReference
+     * @property \AgentSIB\Diadoc\XmlTemplate\ExtendedOrganizationReferenceType $organizationReference
      */
     private $organizationReference = null;
 
